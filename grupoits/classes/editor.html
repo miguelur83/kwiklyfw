@@ -1,0 +1,57 @@
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript" src="../js/jquery-ui-1.10.3.custom.min.js"></script>
+  <script>
+  $(function() {
+    $( ".draggable" ).draggable({
+		cursor:'pointer',
+		revert:true,
+		revertDuration: 0,
+		addClasses: false
+	});
+    $( ".droppable" ).droppable({
+		activeClass:"drop-active",
+		hoverClass:"drop-hover",
+		accept:".draggable",
+		drop: function( event, ui ) {
+			var thecomponent = ui.draggable.clone();
+			thecomponent.appendTo($(this));
+			thecomponent.css("position", "relative");
+			thecomponent.css("left",0);
+			thecomponent.css("top",0);
+			thecomponent.removeClass("ui-draggable-dragging");
+			thecomponent.removeClass("draggable");
+			thecomponent.append("<a class='deletelink' href='#'>Delete</a><a class='editlink' href='#'>Edit</a>");
+		}
+      }
+    );
+	$(".droppable").sortable();
+  });
+  </script>
+</head>
+<body>
+	<div style="width:960px">
+	<div class="page-editor">
+		<p>Arrastre y suelte componentes en las secciones del layout para construir la p&aacute;gina</p>
+		<div class="layout-container">
+			<div class="top droppable">
+			</div>
+			<div class="left-column droppable">
+			</div>
+			<div class="right-column droppable"> 
+			</div>
+		</div>
+		<div class="components">
+			<p>Componentes</p>
+			<div class="component draggable">Marquesina</div>
+			<div class="component draggable">Texto con formato</div>
+			<div class="component draggable">C&oacute;digo HTML</div>
+			<div class="component draggable">Banner Home</div>
+			<div class="component draggable">Noticias Home</div>
+			<div class="component draggable">Banner T&iacute;tulo</div>
+		</div>
+	</div>
+	</div>
+</body>

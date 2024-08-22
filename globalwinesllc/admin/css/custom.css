@@ -1,0 +1,80 @@
+
+
+/* JQuery Autocomplete styles */
+
+.autocomplete-w1 { background:url(../img/shadow.png) no-repeat bottom right; position:absolute; top:0px; left:0px; margin:8px 0 0 6px; /* IE6 fix: */ _background:none; _margin:0; }
+.autocomplete { border:1px solid #999; background:#FFF; cursor:default; text-align:left; max-height:350px; overflow:auto; margin:-6px 6px 6px -6px; /* IE6 specific: */ _height:350px;  _margin:0; _overflow-x:hidden; }
+.autocomplete .selected { background:#F0F0F0; }
+.autocomplete div { padding:2px 5px; white-space:nowrap; }
+.autocomplete strong { font-weight:normal; color:#3399FF; }
+
+fieldset{
+	padding: 10px 0 0 10px;
+}
+fieldset legend{
+	padding: 0 5px 0 5px;
+}
+
+
+/* Custom header logo */
+/*
+#header h2{
+	background: url(../../img/logo_home.png) 0px -46px no-repeat;
+	width: 326px;
+	height: 46px;
+	padding-top: 45px;
+	padding-left: 7px;
+	color: #ffffff;
+	overflow:hidden;
+}*/
+.add_link{
+	background: url(../img/iconset/add.png) top left no-repeat;
+	height:24px;
+	margin: 10px 0 15px 0;
+	padding-left: 30px;
+	padding-top:5px;
+	display:block;
+	float:left;
+}
+.edit_link{     
+  background: url(../img/iconset/edit.png) top left no-repeat;
+  height:24px;
+  width:24px;
+  display:block;
+  text-indent:-999em;
+  overflow:hidden;
+}
+.delete_link{     
+  background: url(../img/iconset/delete.png) top left no-repeat;
+  height:24px;
+  width:24px;
+  display:block;
+  text-indent:-999em;
+  overflow:hidden;
+}
+#login_submit{
+  background: #EEEEEE url(../img/iconset/login.png) 4px 4px no-repeat;
+  height:36px;
+  display:block;
+  padding: 5px 5px 5px 30px;
+}
+.pdf_link{             
+  background: url(../img/iconset/pdf.png) top left no-repeat;
+  height:24px;
+  width:24px;
+  display:block;
+  text-indent:-999em;
+  overflow:hidden;
+}
+div.pagination{ 
+	display:block;
+	margin-right:20px;
+	clear:both;
+	margin-top:-35px;
+	float:right;
+}
+form#filter{
+	text-align:right;
+	margin-top:-30px;
+	margin-right:5px;
+}

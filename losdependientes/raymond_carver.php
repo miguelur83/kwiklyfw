@@ -1,0 +1,54 @@
+<?php
+  include ("inc/head.php");
+  $GLOBALS['interna'] = true;
+  include ("inc/header.php");
+?>
+    <div id="centro" class="arteliteratura">
+      <div id="izquierda">
+        <div id="arteliteratura">
+          <div class="barra_titulo">
+            <span></span>
+            <h1>Arte &amp; Literatura</h1>
+            <span class="tail"></span>
+          </div>
+          <div id="header_slider">
+            <img src="uploads/Raymond_Carver.jpg" title="Header entrevista" alt="Torre de Babel" />          </div>
+          <div id="texto_entrevista">
+ <p>Si podemos hablar ¿por qué entonces escribir? ¿Qué sentido tiene hacerlo? ¿Qué es, en definitiva, lo que una persona que escribe habitualmente, o sea, un escritor, persigue al sentarse horas y horas frente a una máquina de escribir? ¿Dinero, fama, gloria?, no creo, eso es para pocos, y en todo caso eso viene después.<br />
+   ¿Qué es lo que descubre un escritor cuando descubre que va a ser escritor? ¿Qué nombre propio le puso a ese sentimiento que tiene atornillado a la glotis? Ese que, al mismo tiempo de ser descubierto, promete una herramienta para la extirpación y susurra al oído que, pase lo que pase, digan lo que digan (tus ex mujeres, tus ex suegras, tu propia madre, tu propio padre, tus hijos) tenés que escribir, tenés que escribir, tenés que escribir. Ese sentimiento es la impotencia.</p>
+ <p>   De la impotencia, de la imposibilidad de comunicarse con el mundo y en especial con el mundo cercano, con esos seres queridos que si no se están yendo su permanencia en nuestras vidas pende de un hilo. Del terror que sentimos frente a la inminente ruptura de ese hilo, y de la impotencia, también, que nos genera ese terror porque pese a amar, pese a necesitar, pese a ser necesitados no somos capaces ni siquiera de saber “de qué hablamos cuando hablamos de amor”, de ahí: de lugares como ese, viene Carver.<br />
+   De antes de ser escritor, de mucho antes de ser alguien que quiera expresarse en términos poéticos. Carver viene del dolor y el asombro frente al dolor, de la desolación y el asombro frente a la desolación, de la caricia y el asombro frente a la caricia, y de mucho más atrás de eso. Más cerca de la verdad que del arte, porque la gente está más cómoda con el arte que con la verdad, él quiere incomodarnos: incomodarse para incomodarnos. Y esto no entra en ningún género literario. Descreo de esos nombres, acá no hay minimalismo, no hay realismo sucio, no hay más que honestidad brutal contada desde un alma preciosa que ha aprendido a darle potencia a la impotencia de las palabras, que ha descartado adjetivos, adverbios, vervoides, y pajas y más pajas, para contarnos que no se puede decir “te necesito”, no se puede decir “te amo”, no se puede decir casi nada porque es imposible saber o expresar la dimensión del amor o de la necesidad o de lo que fuera que uno sienta. Y que por eso te miento, cuidando la mentira, cuidándote de la mentira, porque ese fingir es el instrumento de mi verdad, de mi realidad no realista, de mi mínima cosa que ocupa toda mi vida.</p>
+ <p>   Carver dijo en un reportaje que de lo único que se sentía orgulloso en su vida era de haber dejado de beber. También, en el mismo reportaje, confesó que la primera vez que un cuento suyo salió publicado en una antología (Quieres hacer el favor de callarte, por favor), él se fue a dormir llevándose el libro a la cama.<br />
+   “…El día en que me llego la antología por correo me la llevé a la cama para leerla, simplemente para mirarla y para tenerla, pero verdaderamente la miré y la tuve más de lo que la leí. Me quedé dormido y a la mañana siguiente me desperté con el libro en la cama a mi lado, junto a mi mujer” Cuánta honestidad. ¡Qué placer me produce leer esto! Cuánto me tranquiliza, cuánto me llena de esperanza saber que es un hombre honesto y valioso quién produce su literatura honesta y valiosa. A cuántos de nosotros (escritores) sería un gran negocio comprarnos por lo que valemos y vendernos por lo que creemos que valemos. Raymond Carver, un genio literario, es capaz de decir, casi inocentemente que se acurrucó junto a su primera publicación. Esto es decir: yo quiero que me publiquen, yo escribo para que me lean, yo quiero tener suerte. Cuántos fantasmas despeja este deseo, cuánta sanidad hay en él. Cuánto bien le hace al escritor principiante… y no tanto.</p>
+ <p>   Acá podrían terminar mis palabras, ¿por qué no? Pero tal vez haya algo más que le pueda agregar a este perfil de apuro que terminó por salir de mi máquina de escribir, y hay un ejemplo publicado en la obra de Carver que habla mejor de él de lo que, al menos, pueda hablar yo. En el año 1981, él publica, en el libro De qué hablamos cuando hablamos de amor, un cuento no logrado. El cuento se llama “El baño”, y es la triste historia de Scotty que, en las vísperas de su cumpleaños, luego de que su madre le encargara un pastel con su nombre, es atropellado por un auto y queda en coma en el hospital. En realidad es la historia de la madre de Scotty, que después de pasar por el primer transe de acompañar a su hijo en el hospital, vuelve a casa para bañarse y recibe la llamada del pastelero que se ha sentido estafado porque ella no fue a retirar el pastel ni a pagárselo. El tipo llama sin darse a conocer, ya en el final del cuento, con el chico en coma. La madre pregunta si se trata de Scotty y el pastelero dice “sí, Scotty, se trata de Scotty”<br />
+   No hay trucos, porque aunque ella no cae en la cuenta de quién es el que llama el lector no tiene dudas, por eso el cuento no es malo en lo formal, pero es malo en su razón de ser. No hay hondura, no hay punto de no retorno más allá de la posible muerte de Scotty como circunstancia. Del comentario fuera de lugar del pastelero como circunstancia. Y si uno mide la dimensión teórica del drama (el coma de Scotty, que el pastelero llame y llame por teléfono a la madre diciéndole que Scotty tal o cual cosa) contra el peso emocional que uno siente al terminar de leer (esto es lo que debería haber sentido contra lo que realmente siente) sale defraudado. Sí, ¡defraudado por Raymond Carver!<br />
+   Es que a veces no alcanza con que el escritor contemple con la boca abierta o en puro asombro un zapato viejo o un atardecer, tal cual lo dice Carver. Y es que él dice “a veces se necesita tan sólo contemplar…” y nosotros leemos “con eso alcanza, lo hago siempre y listo” No. No es así: no es tan fácil escribir fácil.</p>
+ <p>   Hay palabras importantes que Carver hace renacer. Ternura, alma, talento, son algunas de ellas. Entonces si no tenés talento y no escribís con el alma jamás vas a lograr moverte hacia la ternura, y eso es lo que busca Carver, aún en los cuentos más duros, él mismo lo dice cuando “medita” sobre la frase de Santa Teresa que tanto le gustaba “las palabras llevan a las acciones… preparan el alma, la alistan y la mueven a la ternura”</p>
+ <p>   Entonces volviendo al cuento “El baño”. La madre vuelve, al hijo le van a hacer mil estudios, escucha lo que escucha del pastelero y se termina el cuento ¿Qué cuento? Ningún cuento, porque no le salió, porque así no pasa nada, porque fue sólo una idea que se publicó.</p>
+ <p>   Pero toda obra está viva mientras su escritor esté vivo, dice Carver, y unos años después, cuando sale el notable libro Catedral, reescribe el cuento “El baño”, lo titula, “Parece una tontería” y lo convierte en una verdadera obra maestra.</p>
+ <p>   Lo extiende: la madre recibe más llamados del pastelero, Scotty muere, el pastelero insiste “Scotty, lo tengo listo para usted, se ha olvidado de Scotty” La madre lo putea, minutos atrás acaba de enterrar a su hijo, ni ella, ni el lector ─atrapado ahora sí en el sentimiento de ella─ pueden entender que categoría de enfermo es este tipo. Pero la genialidad es que el lector está segundos por delante en comprensión que la protagonista, Carver nos regala esto, pero no abusa y unas líneas más adelante, enseguida, ella cae en la cuenta. Fácil: la torta, el nombre, el número de teléfono “Hijo de puta” grita, y el marido la lleva a la pastelería.</p>
+ <p>   Y ahora lo bueno, el pastelero no los quiere atender, ironías, soberbia. Finalmente les abre. Hay un momento de dudas, parece que va a haber violencia. El pastelero admite que llamó, que el pastel se está poniendo rancio, dice que si quiere se lo deja a mitad de precio. Y ¿saben como se dice mi hijo murió?:<br />
+   “Mi hijo ha muerto –dijo Ann con un tono frío y cortante─. El lunes por la mañana lo atropelló un coche. Hemos estado con él hasta que murió. Pero naturalmente usted no tenía porqué saberlo, ¿verdad? Los pasteleros no tienen que saber todo, ¿verdad, señor pastelero? Pero Scotty ha muerto. ¡Ha muerto, hijo de puta!”<br />
+   Y todo el dolor del universo empieza a llover sobre los personajes y a través de ellos sobre el lector, que ya está emocionalmente preparado (preparado por el escritor) para vivir el momento estético más sublime que el arte nos puede dar (a mi gusto), que es cuando la literatura, LA LITERATURA, se hace presente y dice “acá estoy”:<br />
+   “…el pastelero dejó el rodillo de amasar en el mostrador… los miró y meneó la cabeza despacio… sacó sillas de debajo del mostrador…<br />
+   ─Siéntese ustedes, por favor.<br />
+   ─Quisiera matarlo ─dijo (Ann)─, verlo muerto.”<br />
+   Ellos se sientan, él se sienta con ellos.<br />
+   “─Permítanme decirles cuanto lo siento ─dijo el pastelero apoyando los codos en la mesa─ Sólo Dios sabe cuánto lo lamento. Escuchen. Sólo soy un pastelero…”<br />
+   Sí, dice eso: “Soy sólo un pastelero…”. Una tontería. Parece una tontería. “…en momentos como estos comer puede parecer una tontería…”<br />
+   El cuento sigue. Él les ofrece bollos, y ellos se quedan. Se hace de día y ni piensan en irse, mientras el pastelero les da de probar y de oler y les sirve más y más café.<br />
+   Yo sólo soy un pastelero. ¿le agregarían el adjetivo “simple” a “pastelero”?. No es minimalismo, es talento.<br />
+   Yo leí este cuento por primera vez en el colectivo, un invierno de esos que andaba sólo y hambriento por Buenos aires. No pude parar de llorar, nunca puedo parar de llorar cuando llego a esta parte del cuento. Por eso quería compartirlo. Y creo que no tengo más para decir: ese es mi Carver personal, mi amigo Carver, el que no quiero ni pensar que se vaya más allá (yo pondría: que se vaya lejos, antes de que el amanecer…) de que el amanecer haya arrojado sus luces pálidas en mis ventanas.</p>
+</div>
+     
+        </div>
+      </div>
+      <div id="banners">
+        <?php include("inc/banners.php"); ?>
+        <?php include("inc/archivo_arteyliteratura.php"); ?>
+      </div>
+    </div>
+  </div>
+<?php
+  include("inc/footer.php");
+?>

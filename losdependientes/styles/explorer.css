@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#form_container #buscar{
+  padding-top:4px;
+}                 
+div.search_bar div#search_cat{
+  padding-top: 6px;
+}

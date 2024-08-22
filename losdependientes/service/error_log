@@ -1,0 +1,9 @@
+[17-Nov-2011 21:34:05] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jupishc/public_html/urdinola/losdependientes/classes/KwikObject.class.php on line 464
+[17-Nov-2011 22:26:39] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jupishc/public_html/urdinola/losdependientes/classes/KwikObject.class.php on line 464
+[18-Nov-2011 16:28:34] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jupishc/public_html/urdinola/losdependientes/classes/KwikObject.class.php on line 464
+[18-Nov-2011 16:28:42] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jupishc/public_html/urdinola/losdependientes/classes/KwikObject.class.php on line 464
+[18-Nov-2011 16:28:44] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jupishc/public_html/urdinola/losdependientes/classes/KwikObject.class.php on line 464
+[18-Nov-2011 16:28:44] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jupishc/public_html/urdinola/losdependientes/classes/KwikObject.class.php on line 464
+[18-Nov-2011 16:28:46] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jupishc/public_html/urdinola/losdependientes/classes/KwikObject.class.php on line 464
+[18-Nov-2011 16:28:46] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jupishc/public_html/urdinola/losdependientes/classes/KwikObject.class.php on line 464
+[18-Nov-2011 16:30:06] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jupishc/public_html/urdinola/losdependientes/classes/KwikObject.class.php on line 464

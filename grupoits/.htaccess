@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+# enable rewrite engine
+# RewriteEngine On
+# RewriteRule ^paginas/([a-zA-Z0-9]+)/$ pagina.php?page=$1

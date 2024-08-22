@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Hacks and fixes for Internet Explorer - all versions */
+
+#access_links a:link:hover, #access_links a:visited:hover{
+	display:inline-block;
+	margin-bottom:-10px;
+}               

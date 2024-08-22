@@ -1,0 +1,354 @@
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":null,"data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":null,"data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":null,"data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":null,"data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":null,"data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":null,"data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":null,"data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":null,"data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":null,"data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":null,"data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":null,"data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":null,"data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"0":"1","id":"1","1":"Amelie","titulo":"Amelie","2":"8","director":"8","3":"3","genero":"3","4":"2001","anio":"2001","5":"","afiche":"","6":"","youtube_ID":"","7":"1","tipo":"1"}}
+
+GET: {"titulo":"Drama"}
+ANSWER: {"query":"Drama","data":[]}
+
+GET: {"titulo":"Federico Lagreze"}
+ANSWER: {"query":"Federico Lagreze","data":[]}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"1","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"1","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"1","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"1","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Friends"}
+ANSWER: {"query":"Friends","data":{"id":"2","titulo":"Friends","tipo":"1","anio":"1991","afiche":"","youtube_ID":"","director":null,"genero":"Comedia Situacional"}}
+
+GET: {"titulo":"Miguel Urdinola"}
+ANSWER: {"query":"Miguel Urdinola","data":[]}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Friends"}
+ANSWER: {"query":"Friends","data":{"id":"2","titulo":"Friends","tipo":"1","anio":"1991","afiche":"","youtube_ID":"","director":null,"genero":"Comedia Situacional"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Friends"}
+ANSWER: {"query":"Friends","data":{"id":"2","titulo":"Friends","tipo":"1","anio":"1991","afiche":"","youtube_ID":"","director":null,"genero":"Comedia Situacional"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"aficheresultados.jpg","youtube_ID":"sECzJY07oK4","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"aficheresultados.jpg","youtube_ID":"sECzJY07oK4","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"aficheresultados.jpg","youtube_ID":"sECzJY07oK4","director":null,"genero":null}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"aficheresultados.jpg","youtube_ID":"sECzJY07oK4","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"aficheresultados.jpg","youtube_ID":"sECzJY07oK4","director":"Juan P\u00e9rez","genero":"Drama"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"aficheresultados.jpg","youtube_ID":"sECzJY07oK4","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"aficheresultados.jpg","youtube_ID":"sECzJY07oK4","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"aficheresultados.jpg","youtube_ID":"sECzJY07oK4","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"aficheresultados.jpg","youtube_ID":"sECzJY07oK4","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Curb Your Enthusiasm"}
+ANSWER: {"query":"Curb Your Enthusiasm","data":{"id":"3","titulo":"Curb Your Enthusiasm","tipo":"1","anio":"2011","afiche":"","youtube_ID":"","director":"Larry David","genero":"Comedia"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","afiche":"","youtube_ID":"n3OYmBBpCu8","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Friends"}
+ANSWER: {"query":"Friends","data":{"id":"2","titulo":"Friends","tipo":"1","anio":"1991","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Situacional"}}
+
+GET: {"titulo":"Friends"}
+ANSWER: {"query":"Friends","data":{"id":"2","titulo":"Friends","tipo":"1","anio":"1991","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Situacional"}}
+
+GET: {"titulo":"Friends"}
+ANSWER: {"query":"Friends","data":{"id":"2","titulo":"Friends","tipo":"1","anio":"1991","elenco":"Brad Pitt, Angelina Jolie, Jennifer Aniston, Matt LeBlanc","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Situacional"}}
+
+GET: {"titulo":"Friends"}
+ANSWER: {"query":"Friends","data":{"id":"2","titulo":"Friends","tipo":"1","anio":"1991","elenco":"Brad Pitt, Angelina Jolie, Jennifer Aniston, Matt LeBlanc","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Situacional"}}
+
+GET: {"titulo":"XXY"}
+ANSWER: {"query":"XXY","data":{"id":"3","titulo":"XXY","tipo":"0","anio":"2008","elenco":"Larry David, Cheryl Hines, Matt LeBlanc, Ni idea, Uno, Dos Tres","afiche":"","youtube_ID":"","director":"Vaya a Saber","genero":"Drama"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","elenco":"Audrey Tatou, Brad Pitt","afiche":"","youtube_ID":"n3OYmBBpCu8","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Friends"}
+ANSWER: {"query":"Friends","data":{"id":"2","titulo":"Friends","tipo":"1","anio":"1991","elenco":"Brad Pitt, Angelina Jolie, Jennifer Aniston, Matt LeBlanc","afiche":"","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Situacional"}}
+
+GET: {"titulo":"Curb Your Enthusiasm"}
+ANSWER: {"query":"Curb Your Enthusiasm","data":{"id":"5","titulo":"Curb Your Enthusiasm","tipo":"1","anio":"2009","elenco":"Larry David, Cheryl Hines, Michael Cera","afiche":"","youtube_ID":"","director":"Larry David","genero":"Comedia"}}
+
+GET: {"titulo":"Curb Your Enthusiasm"}
+ANSWER: {"query":"Curb Your Enthusiasm","data":{"id":"5","titulo":"Curb Your Enthusiasm","tipo":"1","anio":"2009","elenco":"Larry David, Cheryl Hines, Michael Cera","afiche":"","youtube_ID":"","director":"Larry David","genero":"Comedia"}}
+
+GET: {"titulo":"Curb Your Enthusiasm"}
+ANSWER: {"query":"Curb Your Enthusiasm","data":{"id":"5","titulo":"Curb Your Enthusiasm","tipo":"1","anio":"2010","elenco":"Larry David, Cheryl Hines, Michael Cera","afiche":"","youtube_ID":"","director":"Larry David","genero":"Comedia"}}
+
+GET: {"titulo":"XXY"}
+ANSWER: {"query":"XXY","data":{"id":"3","titulo":"XXY","tipo":"0","anio":"2008","elenco":"Larry David, Cheryl Hines, Matt LeBlanc, Ni idea, Uno, Dos Tres","afiche":"","youtube_ID":"","director":"Vaya a Saber","genero":"Drama"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","elenco":"Audrey Tatou, Brad Pitt","afiche":"","youtube_ID":"n3OYmBBpCu8","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"XXY"}
+ANSWER: {"query":"XXY","data":{"id":"3","titulo":"XXY","tipo":"0","anio":"2010","elenco":"Larry David, Cheryl Hines, Matt LeBlanc, Uno, Dos Tres","afiche":"","youtube_ID":"","director":"Woody Allen","genero":"Drama"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","elenco":"Audrey Tatou, Brad Pitt","afiche":"","youtube_ID":"n3OYmBBpCu8","director":"Federico Lagreze","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Scott Pilgrim"}
+ANSWER: {"query":"Scott Pilgrim","data":{"id":"4","titulo":"Scott Pilgrim","tipo":"0","anio":"2011","elenco":"Michael Cera","afiche":"","youtube_ID":"","director":"No Idea","genero":"Comedia"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","elenco":"Audrey Tatou","afiche":"amelie_.jpg","youtube_ID":"n3OYmBBpCu8","director":"Juan P\u00e9rez","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Friends"}
+ANSWER: {"query":"Friends","data":{"id":"2","titulo":"Friends","tipo":"1","anio":"1991","elenco":"Brad Pitt, Angelina Jolie, Jennifer Aniston, Matt LeBlanc","afiche":"friends.jpg","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Situacional"}}
+
+GET: {"titulo":"Back to the Future"}
+ANSWER: {"query":"Back to the Future","data":{"id":"6","titulo":"Back to the Future","tipo":"0","anio":"1985","elenco":"Christopher Lloyd, Michael J. Fox, Lea Thompson","afiche":"afiche.jpg","youtube_ID":"geYqE-f7ojY","director":"Robert Zemeckis","genero":"Acci\u00f3n"}}
+
+GET: {"titulo":"Inti"}
+ANSWER: {"query":"Inti","data":[]}
+
+GET: {"titulo":"Back to the Future"}
+ANSWER: {"query":"Back to the Future","data":{"id":"6","titulo":"Back to the Future","tipo":"0","anio":"1985","elenco":"Christopher Lloyd, Michael J. Fox, Lea Thompson","afiche":"afiche.jpg","youtube_ID":"geYqE-f7ojY","director":"Robert Zemeckis","genero":"Acci\u00f3n"}}
+
+GET: {"titulo":"Back to the Future"}
+ANSWER: {"query":"Back to the Future","data":{"id":"6","titulo":"Back to the Future","tipo":"0","anio":"1985","elenco":"Christopher Lloyd, Michael J. Fox, Lea Thompson","afiche":"afiche.jpg","youtube_ID":"geYqE-f7ojY","director":"Robert Zemeckis","genero":"Acci\u00f3n"}}
+
+GET: {"titulo":"Amelie"}
+ANSWER: {"query":"Amelie","data":{"id":"1","titulo":"Amelie","tipo":"0","anio":"2001","elenco":"Audrey Tatou","afiche":"amelie_.jpg","youtube_ID":"n3OYmBBpCu8","director":"Juan P\u00e9rez","genero":"Comedia Rom\u00e1ntica"}}
+
+GET: {"titulo":"Friends"}
+ANSWER: {"query":"Friends","data":{"id":"2","titulo":"Friends","tipo":"1","anio":"1991","elenco":"Brad Pitt, Angelina Jolie, Jennifer Aniston, Matt LeBlanc","afiche":"friends.jpg","youtube_ID":"","director":"Federico Lagreze","genero":"Comedia Situacional"}}
+
+GET: {"titulo":"Curb Your Enthusiasm"}
+ANSWER: {"query":"Curb Your Enthusiasm","data":{"id":"5","titulo":"Curb Your Enthusiasm","tipo":"0","anio":"2010","elenco":"Larry David, Cheryl Hines","afiche":"274447.1010.A.jpg","youtube_ID":"","director":"Larry David","genero":"Comedia"}}
+
+GET: {"titulo":"XXY"}
+ANSWER: {"query":"XXY","data":{"id":"3","titulo":"XXY","tipo":"0","anio":"2010","elenco":"Larry David, Cheryl Hines, Matt LeBlanc, Uno, Dos Tres","afiche":"","youtube_ID":"","director":"Woody Allen","genero":"Drama"}}
+
+GET: {"titulo":"Estaci\u00f3n Lunar 44"}
+ANSWER: {"query":"Estaci\u00f3n Lunar 44","data":{"id":"9","titulo":"Estaci\u00f3n Lunar 44","tipo":"0","anio":"1990","elenco":"Michael Par\u00e9, Lisa Eichhorn, Dean Devlin, Brian Thompson, Malcolm McDowell, Stephen Geoffreys, Leon Rippy","afiche":"tb4q5yj514.jpg","youtube_ID":"3M9CKUPzUjc","director":"Roland Emmerich","genero":"Ciencia Ficci\u00f3n "}}
+
+GET: {"titulo":"Pina 3d"}
+ANSWER: {"query":"Pina 3d","data":{"id":"16","titulo":"Pina 3d","tipo":"0","anio":"2011","elenco":"Pina Bausch, Regina Advento, Malou Airaudo","afiche":"fbp7dalv32.jpg","youtube_ID":"3ww0Ka08LSs","director":"Wim Wenders","genero":"Documental "}}
+
+GET: {"titulo":"Peacock"}
+ANSWER: {"query":"Peacock","data":[]}
+
+GET: {"titulo":"Avatar"}
+ANSWER: {"query":"Avatar","data":{"id":"93","titulo":"Avatar","tipo":"0","anio":"2009","elenco":"Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang, Michelle Rodriguez, Giovanni Ribisi","afiche":"yf34rx660b.jpg","youtube_ID":"d1_JBMrrYw8","director":"James Cameron","genero":"Acci\u00f3n Fantas\u00eda "}}
+
+GET: {"titulo":"Ojos bien cerrados"}
+ANSWER: {"query":"Ojos bien cerrados","data":{"id":"43","titulo":"Ojos bien cerrados","tipo":"0","anio":"1999","elenco":"Tom Cruise, Nicole Kidman, Todd Field, Madison Eginton, Sydney Pollack, Julienne Davis","afiche":"nknto4hb7k.jpg","youtube_ID":"NIAneEiWEJ4","director":"Stanley Kubrick","genero":"Suspenso"}}
+
+GET: {"titulo":"El artista"}
+ANSWER: {"query":"El artista","data":{"id":"14","titulo":"El artista","tipo":"0","anio":"2008","elenco":" Alberto Laiseca, Sergio Pangaro, Andr\u00e9s Duprat","afiche":"yr7w8duqpd.jpg","youtube_ID":"OPnrG9veqpo","director":"Mariano Cohn y Gast\u00f3n Duprat","genero":"Drama"}}
+
+GET: {"titulo":"Melancholia"}
+ANSWER: {"query":"Melancholia","data":{"id":"79","titulo":"Melancholia","tipo":"0","anio":"2011","elenco":"Kirsten Dunst, Charlotte Gainsbourg, Kiefer Sutherland","afiche":"y9bi499f5c.jpg","youtube_ID":"wzD0U841LRM","director":"Lars von Trier","genero":"Drama Ciencia Ficci\u00f3n"}}
+
+GET: {"titulo":"I\\\\\\'m Not There"}
+ANSWER: {"query":"I\\\\\\'m Not There","data":[]}
+
+GET: {"titulo":"Artista"}
+ANSWER: {"query":"Artista","data":{"id":"14","titulo":"Artista","tipo":"0","anio":"2011","elenco":"Malcolm McDowell, Jean Dujardin, B\u00e9r\u00e9nice Bejo, John Goodman, James Cromwell, Penelope Ann Miller","afiche":"fc9ui5myh4.jpg","youtube_ID":"OK7pfLlsUQM","director":"Michel Hazanavicius","genero":"Comedia Dram\u00e1tica"}}
+
+GET: {"titulo":"Cach\u00e9"}
+ANSWER: {"query":"Cach\u00e9","data":{"id":"66","titulo":"Cach\u00e9","tipo":"0","anio":"2005","elenco":"Daniel Auteuil, Juliette Binoche, Maurice B\u00e9nichou","afiche":"ivqbay59vy.jpg","youtube_ID":"lS4VVUYsK44","director":"Michael Haneke","genero":"Thriller"}}
+
+GET: {"titulo":"Drom\u00f3manos"}
+ANSWER: {"query":"Drom\u00f3manos","data":{"id":"181","titulo":"Drom\u00f3manos","tipo":"0","anio":"2012","elenco":"Brian Buley, Julieta Caputo, Camila Maidana, Ail\u00edn Salas, Luis Mar\u00eda Speroni, Alejandro Tobares","afiche":"h285awp0iw.jpg","youtube_ID":"","director":"Luis Ortega","genero":"Drama"}}
+
+GET: {"titulo":"Drom\u00f3manos"}
+ANSWER: {"query":"Drom\u00f3manos","data":{"id":"181","titulo":"Drom\u00f3manos","tipo":"0","anio":"2012","elenco":"Brian Buley, Julieta Caputo, Camila Maidana, Ail\u00edn Salas, Luis Mar\u00eda Speroni, Alejandro Tobares","afiche":"jgbagd95.jpg","youtube_ID":"","director":"Luis Ortega","genero":"Drama"}}
+
+GET: {"titulo":"El secreto de sus ojos"}
+ANSWER: {"query":"El secreto de sus ojos","data":{"id":"160","titulo":"El secreto de sus ojos","tipo":"0","anio":"2009","elenco":"Ricardo Dar\u00edn, Soledad Villamil, Pablo Rago, Guillermo Francella","afiche":"ilftcnajzt.jpg","youtube_ID":"GcHkTSqeGoU","director":"Juan Jos\u00e9 Campanella","genero":"Drama Thriller"}}
+
+GET: {"titulo":"V\u00e9rtigo"}
+ANSWER: {"query":"V\u00e9rtigo","data":{"id":"78","titulo":"V\u00e9rtigo","tipo":"0","anio":"1958","elenco":"James Stewart, Kim Novak, Barbara Bel Geddes","afiche":"afknljsrd0.jpg","youtube_ID":"xU1tOILkIP4","director":"Alfred Hitchcock","genero":"Crimen Suspenso"}}
+
+GET: {"titulo":"The Dark Knight"}
+ANSWER: {"query":"The Dark Knight","data":[]}
+
+GET: {"titulo":"El romance del Aniceto y la Francisca"}
+ANSWER: {"query":"El romance del Aniceto y la Francisca","data":{"id":"179","titulo":"El romance del Aniceto y la Francisca","tipo":"0","anio":"1967","elenco":"Federico Luppi, Elsa Daniel, Mar\u00eda Vaner, Edgardo Su\u00e1rez","afiche":"62m6o70s9h.jpg","youtube_ID":"fSj2yfokskk","director":"Leonardo Favio","genero":"Drama"}}
+
+GET: {"titulo":"Los Marziano"}
+ANSWER: {"query":"Los Marziano","data":[]}
+
+GET: {"titulo":"Gatica el mono"}
+ANSWER: {"query":"Gatica el mono","data":{"id":"86","titulo":"Gatica el mono","tipo":"0","anio":"1993","elenco":"Edgardo Nieva, Horacio Taicher, Juan Costa","afiche":"tjon46gots.jpg","youtube_ID":"mpXl48099Ek","director":"Leonardo Favio","genero":"Drama Biogr\u00e1fico "}}
+
+GET: {"titulo":"The Dark Knight Rises"}
+ANSWER: {"query":"The Dark Knight Rises","data":{"id":"278","titulo":"The Dark Knight Rises","tipo":"0","anio":"2012","elenco":"Christian Bale, Tom Hardy, Anne Hathaway, Gary Oldman, Joseph Gordon-Levitt, Marion Cotillard, Morgan Freeman, Michael Caine","afiche":"dh8jo55mqa.jpg","youtube_ID":"GokKUqLcvD8","director":"Christopher Nolan","genero":"Acci\u00f3n Crimen"}}
+
+GET: {"titulo":"Bastardos sin gloria"}
+ANSWER: {"query":"Bastardos sin gloria","data":[]}
+
+GET: {"titulo":"The Dark Knight Rises"}
+ANSWER: {"query":"The Dark Knight Rises","data":{"id":"278","titulo":"The Dark Knight Rises","tipo":"0","anio":"2012","elenco":"Christian Bale, Tom Hardy, Anne Hathaway, Gary Oldman, Joseph Gordon-Levitt, Marion Cotillard, Morgan Freeman, Michael Caine","afiche":"woquy0o4b0.jpg","youtube_ID":"GokKUqLcvD8","director":"Christopher Nolan","genero":"Acci\u00f3n Crimen"}}
+
+GET: {"titulo":"2001: Odisea en el espacio"}
+ANSWER: {"query":"2001: Odisea en el espacio","data":{"id":"266","titulo":"2001: Odisea en el espacio","tipo":"0","anio":"1968","elenco":"Keir Dullea, Gary Lockwood, William Sylvester, Margaret Tyzack","afiche":"sr37bi8guz.jpg","youtube_ID":"STBPpTPYbiE","director":"Stanley Kubrick","genero":"Ciencia Ficci\u00f3n "}}
+
+GET: {"titulo":"The Ghost Writter"}
+ANSWER: {"query":"The Ghost Writter","data":[]}
+
+GET: {"titulo":"Pulp Fiction"}
+ANSWER: {"query":"Pulp Fiction","data":{"id":"323","titulo":"Pulp Fiction","tipo":"0","anio":"1994","elenco":"John Travolta, Uma Thurman, Samuel L. Jackson, Tim Roth, Bruce Willis, Rosanna Arquette, Eric Stoltz","afiche":"srjms9xffy.jpg","youtube_ID":"69Oo-pIa_xY","director":"Quentin Tarantino","genero":"Crimen Thriller"}}
+
+GET: {"titulo":null}
+ANSWER: {"query":null,"data":[]}
+
+GET: {"titulo":"Mundo Gr\u00faa"}
+ANSWER: {"query":"Mundo Gr\u00faa","data":{"id":"391","titulo":"Mundo Gr\u00faa","tipo":"0","anio":"1999","elenco":"Luis Margani, Adriana Aizemberg, Daniel Valenzuela, Rolly Serrano","afiche":"z0dhnmmrg.jpg","youtube_ID":"wMq4EJh5t3I","director":"Pablo Trapero","genero":"Comedia, Drama "}}
+
+GET: {"titulo":"Somewhere"}
+ANSWER: {"query":"Somewhere","data":{"id":"299","titulo":"Somewhere","tipo":"0","anio":"2010","elenco":"Stephen Dorff, Elle Fanning, Chris Pontius, Karissa Shannon, John Prudhont, Lala Sloatman","afiche":"rhpdd1wyeh.jpg","youtube_ID":"_PGcaxxd8Yo","director":"Sofia Coppola","genero":"Drama"}}
+

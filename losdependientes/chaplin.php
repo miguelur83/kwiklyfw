@@ -1,0 +1,70 @@
+<?php
+  include ("inc/head.php");
+  $GLOBALS['interna'] = true;
+  include ("inc/header.php");
+?>  
+    <div id="centro" class="entrevistas">
+      <div id="izquierda">
+        <div id="entrevistas">
+          <div class="barra_titulo">
+            <span></span>
+            <h1>Entrevistas</h1>
+            <span class="tail"></span>
+          </div>
+          <div id="header_slider">
+            <img src="uploads/entrevistas/chaplin.jpg" title="Entrevista a Juan Minuj&#237;n" alt="Entrevista a Juan Minuj&#237;n" />          </div>
+          <div id="texto_entrevista">
+            <p>Le tengo mucho cariño a mi personaje Charlot, lo cree con mucho trabajo, y no fue hecho para que hablara, sino para que expresara con sus movimientos, con sus gestos, con sus ojos… por lo que jamás podría concebir a Charlot hablando, acabaría estropeándose lo que le hace especial. Con esto no digo que esté en contra del cine sonoro, ya que es el futuro, sino que Charlot jamás tendrá voz en mis películas, aunque no descarto que sí la tenga el resto de actores para no perder demasiado atractivo con las nuevas películas con voz.</p>
+            <p>En 1966, Richard Meryman entrevistó a Charlie Chaplin y hablaron horas sobre la inspiración que iluminó sus películas. Pero la entrevista completa nunca apareció, hasta hace unos años en un libro recientemente publicado en Inglaterra. Dejamos algo de ella como para quedarse colgado mirando el blog, en silencio..</p>
+            <p><strong>Esta entrevista girará en torno a su trabajo y su arte, y a nada más. Me gustaría saber cómo trabaja. </strong><br />
+              –Mi carácter consiste en que me preocupo por mi trabajo. Me preocupo por todo lo que hago. Si pudiera hacer algo mejor, otra cosa que no fuera cine, lo haría, pero no puedo.<br />
+  <strong>¿Puede hablar del momento en que creó al Vagabundo?</strong><br />
+              –Surgió en medio de una emergencia. El cameraman me pidió que me pusiera un maquillaje divertido. Yo no tenía la menor idea de qué hacer. Así que fui a la sala de vestuario y, en el camino, pensé, bueno, los haré filmar algo contradictorio: pantalones amplios, saco ajustado, cabeza grande, sombrero pequeño; alguien harapiento y al mismo tiempo un caballero. No sabía qué hacer con la cara, pero sabía que iba a ser una cara triste y seria. Quería esconder su lado cómico, y entonces encontré esos bigotes. Unos bigotes que no tenían nada que ver con una caracterización tradicional; eran más bien tontos y no escondían mi expresión.<br />
+  <strong>Cuando se vio, ¿cuál fue su primera reacción?</strong><br />
+              –Pensé: “Está bien”. Pero no encendió nada especial en mí. No hasta que tuve que interpretarlo delante de la cámara. Al entrar en cuadro, me sentí vestido, sentí que tenía una actitud. La escena, de la película Strange Predicament, tenía lugar en el lobby de un hotel, y el Vagabundo pretendía hacerse pasar por un huésped para llegar hasta uno de los sillones y descansar un rato. Todos lo miraban con cierta suspicacia, mientras yo imitaba todo lo que los huéspedes hacían: miraba hacia el mostrador, sacaba un cigarrillo, lo encendía, veía pasar un desfile. Y entonces me tropecé con la escupidera. Ese fue mi primer gag. En ese momento nació el personaje. “Este es un muy buen personaje”, me acuerdo que pensé después de tropezarme. Lo único que quería mantener no era tanto el traje sino sus pies. No importaba cuán bullicioso o exuberante se sintiera, siempre cargaba con esos pies cansados y enormes. Le pedí al departamento de vestuario dos pares grandes de zapatos viejos. Como tengo pies absurdamente pequeños, suponía que unos zapatos así me darían un andar cómico. Tengo gracia natural, pero tratar de ser agraciado con zapatos enormes... eso sí es gracioso.<br />
+  <strong>¿Cree que el Vagabundo funcionaría en estos tiempos?</strong><br />
+              –No creo que haya lugar para una persona así hoy en día. El mundo se ha transformado en un lugar un poco más ordenado. Aunque no más feliz. No existe la misma humildad. Diría que la humildad se ha convertido en una antigüedad. Pertenece a otra era. Por eso no podría crear al Vagabundo hoy. Y está el tema del sonido, por supuesto. Cuando llegó el cine sonoro no pude seguir con el personaje. No sabía qué voz darle. Por eso tuvo que desaparecer.<br />
+  <strong>¿Cuál cree que es el encanto del Vagabundo?</strong><br />
+              –Tiene esa pobreza gentil y silenciosa... Eso es lo que disfruto del personaje: que sea a la vez fastidioso y delicado. Pero nunca pensé en él en términos de encanto. Siempre relacioné al Vagabundo con cierto espíritu cómico que debía expresar. La reacción del público me motivó, pero nunca relacioné la creación del personaje a ella. El público siempre aparece al final del trabajo, no durante.<br />
+  <strong>¿Cómo se le ocurre un gag? ¿Aparece de la nada o forma parte de un proceso?</strong><br />
+              –No, no hay ningún proceso. Las mejores ideas surgen en medio de una situación. Si se consigue una buena situación cómica, el impulso continúa y continúa. Como la secuencia de patinaje en The Rink. Encontré un par de patines y empecé. Todos esperaban que me cayera, pero yo seguía y seguía patinando graciosamente en un pie. Nadie esperaba eso del Vagabundo. O la escena del poste de luz en Easy Street. Apareció en una escena en la que yo era un policía intentando controlar a un matón. Le pego con unacachiporra, le vuelvo a pegar, y le pego una vez más. De repente, todo parece un mal sueño: él sigue arremangándose, impasible a los golpes. Después me alza y me vuelve a bajar. Entonces pensé: bueno, con su fuerza, podría arrancar el poste y mientras lo hace, yo puedo saltarle sobre la espalda, empujar su cabeza dentro de la luz y asfixiarlo con el gas del farol. Las cosas más graciosas aparecieron de esa improvisación. Pero hay momentos de agonía, también. Días miserables en los que nada funciona. Siempre dependió de mí encontrar algo que hiciera reír. Y no se puede ser gracioso sin una situación. Se puede ser payasesco o torpe, pero se necesita siempre una situación cómica. <br />
+  <strong>¿Observa a las personas y toma situaciones de ellas, o nacen de su imaginación?</strong><br />
+              –Cada uno crea un mundo propio. El mío era mi estudio en California. Los momentos más felices me ocurrieron ahí, cuando tenía una idea o algo me sugería una historia. Entonces las cosas empezaban a fluir. La noche es un lugar bastante solitario en California, especialmente en Hollywood, así que era maravilloso crear un mundo cómico, un mundo diferente al cotidiano. Y es divertido. Uno se sienta, piensa, ensaya durante medio día, lo filma y está listo.<br />
+  <strong>¿El realismo es una parte integral de la comedia?</strong><br />
+              –Sí, absolutamente. La situación absurda debe ser tratada con absoluto realismo. La audiencia lo sabe, y es tan real y tan absurdo a la vez que los deja exultantes.<br />
+  <strong>Bueno, también está la crueldad. Había mucha crueldad en sus comedias.</strong><br />
+              –Bueno, la crueldad es el elemento básico de la comedia: lo que parece sano resulta enfermo, y si uno lo remarca con suficiente mordacidad, el público lo ama. Reconocen en eso la farsa de la vida, y se ríen de ello para no llorar o morir. Es una cuestión relacionada a ese misterio llamado candor. Si un hombre mayor resbala con una cáscara de banana y se cae lentamente, no nos reímos. Pero si le sucede a un caballero pomposo, orgulloso y exagerado, entonces nos reímos. Toda situación embarazosa es graciosa, sobre todo si es tratada con humor. De los payasos se puede esperar cualquier disparate. Pero si un hombre que se cree astuto entra a un restaurante, y resulta tener un agujero en el pantalón, bueno, si se trata con humor, eso puede ser muy gracioso. Sobre todo si se hace con dignidad y orgullo.<br />
+  <strong>Su comedia es, en parte, una comedia de incidentes. No es intelectual, sino que está hecha de cosas que suceden.</strong><br />
+              –Siempre creí que una serie de incidentes relacionados arman una historia, como las bolas ordenadas antes de un partido de pool. Cada bola es un incidente. Una toca a la otra, y entre todas arman un triángulo. Es una idea que me ha acompañado mucho en mi trabajo.<br />
+  <strong>En sus películas a usted le gusta mantener un ritmo acelerado y apilar un incidente encima de otro. ¿Lo considera una característica de su trabajo?</strong><br />
+              –No sé si lo llamaría una característica. He obsevado a otros comediantes capaces de bajar el ritmo, pero yo funciono mejor así. No tengo tanta confianza en lo que hago como para moverme despacio. Pero la acción no lo es todo. También debe haber desarrollo, porque de otra manera pierde realismo: se tiene un problema y se lo intensifica; no se empieza por el problema intensificado. Uno se pregunta: bueno, ¿hacia dónde vamos desde acá? ¿Cuál es el desenlace natural de esto? Si evoluciona de un modo realista y convincente, el problema se vuelve cada vez más y más complicado. Pero debe mantener su lógica, si no se obtendrá una comedia, pero no una comedia excitante.<br />
+  <strong>¿Le preocupa el sentimentalismo o el cliché?</strong><br />
+              –No, no en la pantomima. No me preocupa el sentimentalismo, simplemente lo evito. Y no le temo al cliché: la vida es un cliché. Nadie nace con más originalidad que otros. Todos vivimos y morimos con tres comidas diarias,y todos nos enamoramos y nos desenamoramos. Nada puede ser un cliché mayor que una historia de amor, pero la historia puede continuar todo lo que uno quiera, siempre y cuando se le dé un tratamiento interesante.<br />
+  <strong>¿Cuántas veces repitió el gag de comerse el zapato en La fiebre del oro? </strong><br />
+              –Lo filmamos una y otra vez como durante dos días. El pobre actor Mack Swain se enfermó. Los zapatos eran de regaliz, y comió demasiado. Ya el último día repetía: “No puedo comer más de esos zapatos”. La idea del gag me la dio la fiesta Donner (En 1846, un vagón de tren con 81 pioneros que iba hacia California quedó atrapado en una nieve de Sierra Nevada). Recurrieron al canibalismo y hasta se comieron un mocasín. Cuando me enteré, pensé: ¿estofado de zapato? Hay algo gracioso en eso. Sufrí un tiempo tratando de sacar adelante la historia, hasta que llegamos a una situación sencilla: el hambre. En el momento en que se soluciona la lógica de una situación, su realismo y su posibilidad de suceder, las ideas empiezan a fluir. Es una de las mejores escenas de la película.<br />
+  <strong>¿Tuvo dudas o preocupaciones cuando empezó a hacer cine sonoro?</strong><br />
+              –Sí, claro. En primer lugar, tenía experiencia pero no entrenamiento académico, y hay una gran diferencia. Pero también sentía que tenía talento, que era un actor nato. Sabía que era mucho más fácil para mí hacer pantomima que hablar. Soy un artista, y sabía muy bien que en el hecho de hablar gran parte de eso desaparecería. Sabía que no iba a ser mucho mejor que cualquier otro actor que tuviera buena voz y buena dicción.<br />
+  <strong>¿Era una cuestión de incorporar una nueva dimensión de la realidad lo que podía herir la fantasía del cine mudo?</strong><br />
+              –Sí. Siempre he dicho que la pantomima es mucho más poética, y tiene un atractivo universal que todos pueden entender si está bien hecha. El diálogo reduce a todos a cierta volubilidad. La voz es algo hermoso, sumamente revelador, y yo no quería ser demasiado revelador porque podía mostrar una limitación. Son pocas las personas cuyas voces alcanzan o al menos ofrecen la ilusión de gran profundidad, mientras que el movimiento es tan cercano a la naturaleza como el vuelo de un pájaro. La expresión de los ojos... no hay palabras. Hay expresiones de la cara que nadie puede ocultar. Un gesto de decepción puede ser tan sutil... Tuve que considerar todo esto antes de empezar a hablar. Y sabía muy bien que con el cine sonoro yo había perdido buena parte de mi elocuencia.<br />
+  <strong>¿Tiene una película favorita?</strong><br />
+              –Creo que me gustó mucho Luces de la ciudad. Es sólida, está bien hecha. Es una verdadera comedia.<br />
+  <strong>Es una película poderosa. Lo que me impresionó es cuán cerca se encuentran la tragedia y la comedia.</strong><br />
+              –Realmente eso nunca me interesó. Más bien es una idea que forma parte de mí. No creo que se pueda hacer humor sin sentir una gran piedad y simpatía por los hombres.<br />
+  <strong>¿Será que queremos librarnos de las tragedias?</strong><br />
+              –No, creo que la vida es mucho más que eso. Si ése fuera el motivo, habría muchos más suicidios. Muchos más querrían salirse de la vida. Creo que la vida es algo maravilloso y debe ser vivida cualesquiera sean las circunstancias, incluso en la miseria. Prefiero la vida. Prefiero la experiencia por la experiencia misma. Creo que el humor nos salva. Demasiada tragedia nos puede hacer naufragar. Por supuesto que la tragedia es parte de la vida, pero también nos son dadas las herramientas para neutralizarla, para defendernos de ella. El humor es algo universal, y creo que se deriva, más o menos, de la piedad.<br />
+  <strong>¿Cree que existe eso llamado “genio”?</strong><br />
+              –Nunca supe qué es un genio. Supongo que es alguien con talento, altamente emocional y capaz de dominar una técnica. Pero todos estamos dotados de una u otra manera. Aunque muchos excelentes profesionales han sido confundidos con genios. </p>
+            <p>&nbsp;</p>
+          </div>
+        </div>
+      </div>
+      <div id="banners">              
+        <?php include("inc/banners.php"); ?>
+        <?php include("inc/archivo_entrevistas.php"); ?>
+      </div>
+    </div>
+    <div class="push"></div>
+  </div>
+<?php
+  include("inc/footer.php");
+?>

@@ -1,0 +1,1974 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* BEGIN CSS Reset */
+tml, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END CSS Reset */
+
+/* BEGIN Site-wide settings */
+* {
+  font-family: Arial, Tahoma, Times New Roman; 
+  font-size: 14px;
+  color:#FFF;
+}
+body{
+  background-color:#000;
+  width:100%;
+  background-position: center top;
+  background: #000 url('../img/fondo.jpg') no-repeat;
+}/*
+#body_bkg{
+  background: #000 url('../img/fondo.jpg') no-repeat;
+  width:1500px;
+  height:530px;
+  margin:0 auto;
+  margin-bottom:-530px;
+}*/
+
+html, body {
+	height: 100%;
+} 
+#main_container{
+  width: 980px;
+  margin: 0 auto;
+  /* Sticky footer */
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+  margin-bottom:-33px;
+}
+#nav_bar{
+  background: url(../img/menubarra.png);
+  width: 900px;
+  height: 43px;       
+  padding-left: 80px;
+}
+ul#nav_menu li{
+  float:left;
+  font-weight:bold;
+  height:29px;
+  padding: 13px 12px 0 12px;
+  background: url(../img/separador.gif) top left repeat-y;
+}                 
+ul#nav_menu li a{
+  text-decoration: none;
+  color: #fff;
+}
+ul#nav_menu li:hover{
+  background: url(../img/menubarra_hover.png) top left repeat-x;
+}
+
+.clear{
+  clear:both;
+  margin:auto;
+}
+/* END Site-wide settings */
+
+/* BEGIN Home settings */
+#home_header {
+  width: 980px;
+  margin-top:13px;
+}
+#logo{
+  background: url(../img/logo_home.png) no-repeat top left transparent;
+  width:326px;
+  height: 46px;
+  text-indent:-999em;
+  overflow:hidden;
+  display:block;
+  float:left;
+}  
+#logo:hover{
+  background: url(../img/logo_home.png) 0 -46px no-repeat transparent;
+}
+
+div.search_bar{
+  float:left;
+  display:block;
+  font-size: 12px;
+  margin: 10px 0 0 20px;
+}
+div.search_bar div#search_cat{
+  background: url(../img/busqueda/barrabusca01.png) no-repeat top left transparent;
+  width:131px;
+  height:19px;
+  padding-top: 4px;
+  padding-left: 25px;
+  color:#FFF;
+  margin:0;   
+  float:left;
+  display:block;
+  cursor:pointer;
+}
+div.search_bar div#form_container{
+  float:left;
+  display:block;
+  width:477px;
+  height:23px;
+  background: url(../img/busqueda/barrabusca02.png) no-repeat top left transparent;
+}             
+form#search_form{
+  float:left;
+  display:block;
+  width:477px;
+  height:23px;    
+}       
+div#form_container #buscar{
+  float:left;
+  display:block;
+  width:472px;
+  height:23px;
+  background:transparent;
+  border:none;      
+  font-size: 12px;
+  color:#FFF;
+  padding: 0 0 0 5px;
+}             
+div.search_bar #searchTypes{
+  background: url(../img/busqueda/desplegable.png) no-repeat top left transparent;
+  width:81px;
+  height:97px;
+  position:absolute;
+  margin-top:24px;
+  margin-left:25px;
+  padding:0;
+  z-index:200;
+}
+#searchTypes ul li{
+  margin-bottom: 7px;
+}
+#searchTypes ul li span{
+  font-size: 10px;
+  margin-left:5px;
+}                  
+#searchTypes ul li a{
+  margin-left:12px;
+  color: #FFF;
+  text-decoration: none;
+}
+.hide{
+  display:none;
+}
+
+div#marquesina{        
+  width: 980px;
+  float:left;
+  margin-top:10px;
+}
+div#logo_ojo{  
+  float:left;
+  background: url(../img/header/logo.png) no-repeat top left transparent;
+  width:306px;
+  height: 186px;
+  text-indent:-999em;
+  overflow:hidden;
+}
+
+div#marquesina #slider_destacado{        
+  width: 671px;
+  height: 186px;
+  float:left;
+  overflow:hidden;
+}
+
+div.informacion{
+  position:relative;
+  width: 265px;
+  height:186px;
+  background: url(../img/header/fondotexto.png) repeat;
+  float:left;
+}
+div#marquesina .imagen_destacado{
+  position:absolute;
+  display:block;
+  z-index:-5;
+}
+.titulo_destacado{
+  margin: 10px 0 0 15px;
+  height: 33px;
+  position: absolute;
+}
+.sinopsis{
+  color: white;
+  font-family: Georgia, Times New Roman;
+  font-size: 11px;
+  margin: 55px 0 0 18px;
+  position: absolute;
+  width: 230px;
+  height: 90px;
+  overflow: hidden;
+  line-height:14px;
+}
+a.vermaslink{
+  background: url(../img/header/botonver01.png) no-repeat top left;
+  width: 55px;
+  height: 19px;
+  display:block;                        
+  font-family: Georgia, Times New Roman;
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  padding: 5px 0 0 10px;
+  float:right;
+  margin-top: 150px;
+}                                                                  
+a.vermaslink:hover{
+  background: url(../img/header/botonver02.png) no-repeat top left;
+}
+div#marquesina #nav{
+  position:relative;
+  z-index:200;
+  float:right;
+  display:block;
+  margin-bottom:-10px;
+  top:160px;
+  margin-right:15px;
+}                   
+div#marquesina #nav a{
+  background: url(../img/punto_pasivo.png) top left no-repeat;
+  width:12px;
+  height:10px;
+  text-indent:-999em;
+  overflow:hidden;
+  display:block;
+  float:left;
+  margin-right:5px;
+  border:0;
+}                     
+div#marquesina #nav a:hover{
+  background: url(../img/punto_versatil.png) top left no-repeat;
+}
+div#marquesina #nav a.activeSlide{
+  background: url(../img/punto_activo.png) top left no-repeat;
+}
+
+div#facebook_link{
+  width: 32px;
+  height: 32px;
+  text-indent: -999em;
+  float:left;
+  overflow: hidden;
+  position: relative;
+  top:-52px;
+  left: -32px;
+}
+div#facebook_link a{
+  background: url(../img/header/fbicon.png) no-repeat top left;
+  width: 32px;
+  height: 32px;
+  text-indent: -999em;
+  float:left;
+  overflow: hidden;
+}
+div#facebook_link a:hover{
+  background-position: 0 -32px;
+}
+div#facebook_link.inner{
+  position:relative;
+  top:5px;
+  left:-111px;
+  margin-right:-32px;
+}
+
+div#centro{
+  width: 980px;
+  float:left;
+}
+div#izquierda{
+  width: 756px;
+  float:left;
+  margin-bottom: 30px;
+}
+div#banners{
+  width: 200px;
+  float:right;
+}
+div#criticas_recientes{
+  width: 100%;
+  float:left;
+}
+.barra_titulo{
+  height:31px;
+  background: url(../img/titulo/degradado.png) repeat-x;
+  border-bottom:1px solid #3c3835;
+  margin:-1px 0 0 27px;
+}                 
+.barra_titulo span{
+  width:8px;
+  height:31px;
+  background: url(../img/titulo/grandecurva01.png) no-repeat;
+  position:relative;
+  left:-8px;
+  display: block;
+  float:left;                     
+  border-bottom:1px solid #3c3835;
+}                                    
+.barra_titulo h1{
+  font-weight: bold;
+  font-size: 14px;
+  padding-top:7px;
+}                                                    
+.barra_titulo h1 a{
+  text-decoration: none;
+}
+
+div.critica_box{
+  width:172px;
+  border: 1px solid #080808;
+  display:block;
+  float:left;
+  margin-right:20px;
+  margin-top:20px;
+  text-align:center;
+  padding-top: 10px;
+  font-size: 11px;
+  padding-bottom: 10px;
+  height: 345px;
+  overflow:hidden;
+}              
+div.critica_box:hover{
+	background:#222222;
+}
+div.critica_box.ultima{
+  margin-right:0;
+}                  
+div.critica_box *{
+  color:#a8a8a8;
+}                  
+div.critica_box a{
+  border:0;
+  margin:0 auto;
+  text-decoration: none;
+}
+div.critica_box a img.critica_afiche{
+  width: 150px;
+  height: 215px;
+  border:0;
+}                                    
+div.critica_box h2{                  
+  width: 150px; 
+  margin:10px auto 3px auto;
+  text-align: left;
+}                  
+div.critica_box p{                   
+  width: 150px; 
+  margin:0 auto 0 auto;
+  text-align: left;
+  line-height: 14px;
+}
+strong{
+  font-weight: bold;
+}
+
+
+div#entrevista_destacada{
+  width: 360px;
+  float:left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #080808;
+}                       
+div#entrevista_destacada .barra_titulo h1{
+  background: url(../img/titulo/icoentrevista.png) 0 5px no-repeat;
+  height:20px;
+  padding-left:30px;
+}
+div#entrevista_destacada a, div#entrevista_destacada a img{
+  border:0;
+}
+div#entrevista_destacada a img{
+  margin: 10px; 
+  float:left;
+}                                                         
+div#entrevista_destacada p{
+  width: 160px;
+  display:block;
+  float:left;                  
+  margin: 10px 0 0 5px;
+  font-size: 11px; 
+  line-height:16px;
+}
+
+
+div#libros_electronicos{
+  width: 360px;
+  float:right;     
+  margin-top: 15px;   
+  margin-bottom: 15px;      
+  border: 1px solid #080808;      
+  font-size: 11px; 
+}                       
+div#libros_electronicos .barra_titulo h1{
+  background: url(../img/titulo/icolibros.png) 0 5px no-repeat;
+  height:20px;
+  padding-left:30px;
+}                                        
+div#libros_electronicos h2{
+  margin: 10px 10px 5px 10px;
+  background: url(../img/icoredondo.png) 1px 2px no-repeat;
+  padding-left: 15px;
+  font-weight: bold;
+}
+div#libros_electronicos p{
+  margin: 0 10px 20px 10px;
+  line-height:12px;
+}
+div#libros_electronicos .libro_titulo a{
+  
+}
+
+
+
+div#noticias_home{
+  width: 200px;
+  float:right;     
+  margin-top: 0px;   
+  margin-bottom: 15px;      
+  border: 1px solid #080808;
+  font-size: 11px; 
+  background:#0a0909;
+  padding-bottom:15px;
+}             
+div#noticias_home .barra_titulo{
+  height:31px;
+  background: url(../img/titulo/degradado.png) repeat-x;
+  border-bottom:1px solid #3c3835;
+  margin:-1px 0 0 7px;
+}                 
+div#noticias_home .barra_titulo span{
+  width:8px;
+  height:31px;
+  background: url(../img/titulo/grandecurva01.png) no-repeat;
+  position:relative;
+  left:-8px;
+  display: block;
+  float:left;                     
+  border-bottom:1px solid #3c3835;
+}                                    
+div#noticias_home .barra_titulo h1{
+  font-weight: bold;
+  font-size: 14px;
+  padding-top:7px;
+}                                                    
+div#noticias_home .barra_titulo h1 a{
+  text-decoration: none;
+}          
+div#noticias_home .barra_titulo h1{
+  background: url(../img/noticias/iconoticias.png) 0 5px no-repeat;
+  height:20px;
+  padding-left:30px;
+}                          
+div#noticias_home hr{
+	height:1px;
+	border:0;
+	width:92%;
+	border-top:1px dotted gray;
+	margin:0 0 0 8px;
+}
+div#noticias_home a{
+	text-decoration:none;
+	width:100%;
+	margin-bottom:0px !important;
+}
+div#noticias_home a div.noticia{
+	padding:10px 8px 0px 8px;
+	margin:8px 0 8px 0;
+}
+div#noticias_home a:hover div.noticia{
+	background-color:#232020;
+}                         
+div#noticias_home a div.noticia p.fecha{
+	color:#a2a1a1;
+	font-size:10px;
+	font-family:Arial;
+}                          
+div#noticias_home a div.noticia p.pais{
+	color:#a2a1a1;
+	font-size:10px;
+	font-family:Arial;
+	margin-top:3px;
+}           
+div#noticias_home a div.noticia h2.noticia_titulo{
+	color:#ffffff;
+	font-size:13px !important;
+	font-family:Arial;
+	margin:8px 0 0 0;
+	padding-bottom:10px;
+}
+div#noticias_home a div.noticia img{
+	width:181px;
+	margin-bottom:8px;
+}
+div#noticias_home a.ver_archivo{
+	width:68px;
+	height:18px;
+	display:block;
+	float:right;
+	background:url(../img/noticias/ver_archivo.png) no-repeat top left;
+	color:#ffffff;
+	font-size:11px;
+	padding: 7px 0 0 14px;
+	margin-top:40px;
+} 
+
+
+
+div#footer_container{  
+  width: 100%;
+  display:block;
+  float:left;
+  background: #150303;
+  height:20px;     
+}
+/*
+.push {
+  height: 20px;
+} */
+div#footer{
+  width:980px;
+  margin: 0 auto;
+  text-align: right;
+  font-size:10px;     
+  height:15px;
+  padding-top:5px;      
+  background: url(../img/logofoot.png) 0 2px no-repeat;
+}             
+div#footer a{
+  text-decoration: none;
+}       
+div#footer a:hover{
+  color:#a90003;
+}
+
+div#banners {
+  width:200px;
+}             
+div#banners a{
+  border:none;
+  display:block;
+  float:left;
+  margin-bottom:10px;
+}             
+div#banners a img{
+  border:none;
+}                     
+
+div#criticas_recientes .barra_titulo, div#entrevista_destacada .barra_titulo, div#libros_electronicos .barra_titulo{
+  margin-left:8px;
+}
+
+/* END Home settings */
+
+/* BEGIN Entrevistas settings */
+#centro.entrevistas{
+  margin-top: 10px;
+}
+#entrevistas .barra_titulo{
+  background: none;
+  border-bottom: #747474 solid 1px;
+}
+#entrevistas .barra_titulo h1{
+  width:240px;                
+  background: url(../img/titulo/degradado.png) repeat-x;
+  height:31px;
+  float:left;
+  margin-left:-8px;
+}                               
+#entrevistas .barra_titulo span{
+  border-bottom: #747474 solid 1px;
+}
+#entrevistas .barra_titulo span.tail{
+  width:8px;
+  height:31px;
+  background: url(../img/titulo/grandecurva02.png) no-repeat;
+  display: block;
+  float:left;     
+  position:relative;
+  margin-left:8px;       
+}
+div#header_slider{
+  display:block;
+  width:730px;
+  height:240px;
+  overflow:hidden;
+  margin: 30px auto 0 auto;   
+  float:right;
+}
+div#texto_entrevista{
+  width:730px;             
+  margin: 30px auto 30px auto;
+  float:right;
+}
+div#texto_entrevista, div#texto_entrevista *{
+  font-family:Arial, Times New Roman, Georgia;
+  font-size: 12px;
+  color: #747474;
+  line-height:16px;
+  text-align: justify;
+}
+i{
+  font-style: italic;
+}
+div#texto_entrevista p{
+  margin-bottom: 14px;
+}
+div#fotos_entrevista{
+  text-align:center;
+  margin: 0 auto 100px auto; 
+  width:730px;          
+  float:right; 
+}
+div#fotos_entrevista a{
+  margin: 0 10px 0 10px;
+}                      
+div#fotos_entrevista a img{
+}
+#lightbox-image-details *{
+  color:#000;
+}                     
+#centro.entrevistas div#banners a{
+  margin-bottom: 20px;
+}
+#centro.entrevistas div#banners div#archivo{
+  width:200px;
+  background: #490b09 url(../img/otros/archivo.gif) repeat-x top left;
+  display:block;
+  float:left;                     
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding:10px 0 20px 0;
+}                                           
+div#archivo h3, div#archivo h2, div#archivo p {
+  margin:0 10px 0 10px;
+}                            
+div#archivo h3, div#archivo p {
+  margin-bottom:5px;
+}
+div#archivo h3{
+  font-weight: bold;
+  margin-top:15px;
+}            
+div#archivo p a{
+  display: block;
+  float:left;       
+  margin-bottom: 5px !important;
+  text-decoration:none;
+  width:100%;
+  padding:0;
+}
+div#archivo h2{     
+  font-weight: bold;
+  border-bottom: 1px solid #959595;
+  padding-bottom: 5px;    
+  font-size: 14px;
+}
+/* END Entrevistas settings */
+
+/* BEGIN Arte & Literatura settings */
+#centro.arteliteratura{
+  margin-top: 10px;
+}
+#arteliteratura .barra_titulo{
+  background: none;
+  border-bottom: #747474 solid 1px;
+}
+#arteliteratura .barra_titulo h1{
+  width:240px;                
+  background: url(../img/titulo/degradado.png) repeat-x;
+  height:31px;
+  float:left;
+  margin-left:-8px;
+}                               
+#arteliteratura .barra_titulo span{
+  border-bottom: #747474 solid 1px;
+}
+#arteliteratura .barra_titulo span.tail{
+  width:8px;
+  height:31px;
+  background: url(../img/titulo/grandecurva02.png) no-repeat;
+  display: block;
+  float:left;     
+  position:relative;
+  margin-left:8px;       
+}                     
+#centro.arteliteratura div#banners a{
+  margin-bottom: 20px;
+}
+#centro.arteliteratura div#banners div#archivo{
+  width:200px;
+  background: #490b09 url(../img/otros/archivo.gif) repeat-x top left;
+  display:block;
+  float:left;                     
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding:10px 0 20px 0;
+}                                           
+div#archivo h3, div#archivo h2, div#archivo p {
+  margin:0 10px 0 10px;
+}                            
+div#archivo h3, div#archivo p {
+  margin-bottom:5px;
+}
+div#archivo h3{
+  font-weight: bold;
+  margin-top:15px;
+}            
+div#archivo p a{
+  display: block;
+  float:left;       
+  margin-bottom: 5px !important;
+  text-decoration:none;
+  width:100%;
+  padding:0;
+}
+div#archivo h2{     
+  font-weight: bold;
+  border-bottom: 1px solid #959595;
+  padding-bottom: 5px;    
+  font-size: 14px;
+}
+/* END Arte & Literatura settings */
+
+/* BEGIN Links settings */
+#centro.links{
+  margin-top: 10px;
+}
+#links .barra_titulo{
+  background: none;
+  border-bottom: #747474 solid 1px;
+}
+#links .barra_titulo h1{
+  width:240px;                
+  background: url(../img/titulo/degradado.png) repeat-x;
+  height:31px;
+  float:left;
+  margin-left:-8px;
+}                               
+#links .barra_titulo span{
+  border-bottom: #747474 solid 1px;
+}
+#links .barra_titulo span.tail{
+  width:8px;
+  height:31px;
+  background: url(../img/titulo/grandecurva02.png) no-repeat;
+  display: block;
+  float:left;     
+  position:relative;
+  margin-left:8px;       
+}                     
+#centro.links div#banners a{
+  margin-bottom: 20px;
+}
+#links_container{
+  width:730px;
+  float:right;
+  margin: 20px 0 20px 0;
+}
+div.link{
+  position:relative;
+  float: left;
+  display: block;
+  width: 225px;
+  margin: 0 26px 26px 0;
+}                   
+div.link.wrap{
+  margin-right:0;
+}
+div.link a img.normal, div.link a img.hover{
+  border: 10px solid #290404;
+}              
+div.link a img.hover{
+  display:none;
+}
+div.link a:hover img.hover{
+  display:block;
+}
+div.link a:hover img.normal{
+  display:none;
+}
+div.link p.link_name{
+  float:left;
+  width: 144px;
+  height: 18px;
+  background: url(../img/links/nombre_fondo.png) no-repeat top left;
+  padding: 5px 0 0 5px;
+  font-size: 12px;
+  margin-top:8px;
+}
+div.link p.link_name a{
+  text-decoration: none;
+  width:100%;
+}
+/* END Links settings */
+
+/* BEGIN Resultados settings */
+#centro.resultados{
+  margin-top: 10px;
+}
+#resultados .barra_titulo{
+  background: none;
+  border-bottom: #747474 solid 1px;
+}
+#resultados .barra_titulo h1{
+  width:240px;                
+  background: url(../img/titulo/degradado.png) repeat-x;
+  height:31px;
+  float:left;
+  margin-left:-8px;
+}                               
+#resultados .barra_titulo span{
+  border-bottom: #747474 solid 1px;
+}
+#resultados .barra_titulo span.tail{
+  width:8px;
+  height:31px;
+  background: url(../img/titulo/grandecurva02.png) no-repeat;
+  display: block;
+  float:left;     
+  position:relative;
+  margin-left:8px;       
+}  
+#resultados p.search_term{
+  float:left;
+  clear: both;
+  margin-left: 20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+#resultados div.search_cats_results{
+  width:175px;
+  float:left;
+  display: block;
+  clear:left;       
+  margin-left: 20px;
+}
+#resultados div.search_cats_results p{
+  font-weight: bold;
+}                   
+#resultados ul.search_cats{
+  width:175px;
+  margin-top: 10px;
+}                          
+#resultados ul.search_cats li{
+  width: 165px;
+  height: 23px;
+  background: url(../img/resultados/resultados_middle.png) top left no-repeat;
+  padding: 7px 0  0 10px;
+}                                          
+#resultados ul.search_cats li.activo{
+  background: url(../img/resultados/resultados_middle_act.png) top left no-repeat;
+}
+#resultados ul.search_cats li.top{
+  background: url(../img/resultados/resultados_top.png) top left no-repeat;
+}                                          
+#resultados ul.search_cats li.top.activo{
+  background: url(../img/resultados/resultados_top_act.png) top left no-repeat;
+}
+#resultados ul.search_cats li.bottom{    
+  background: url(../img/resultados/resultados_bottom.png) top left no-repeat;
+}
+#resultados ul.search_cats li.bottom.activo{  
+  background: url(../img/resultados/resultados_bottom_act.png) top left no-repeat;
+}               
+#resultados ul.search_cats li a{
+  text-decoration: none;
+}
+#resultados div.search_results{
+  width:765px;  
+  float:left;
+  display: block;   
+  margin-left: 20px;
+  margin-top:25px;
+}
+
+div#results_container div.result_item{
+  float: left;
+  font-family: Arial, Times New Roman, Georgia;
+  border-bottom: #4e4e4e 1px solid;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+}                   
+div#results_container div.result_item a{
+	text-decoration: none;
+	border:0;
+}
+div#results_container div.result_item img.result_image{
+  display:block;
+  float:left;
+}                                                      
+div#results_container div.result_item h2{
+  float:left;
+  display:block;
+  width:650px;
+  font-size: 14px;
+  font-weight: bold;                           
+  margin: 0 0 15px 20px;
+  color: #eceded;
+}                                       
+div#results_container div.result_item p{
+  float:left;
+  display:block;
+  width:650px;    
+  font-size: 13px;   
+  margin: 0 0 0 20px;
+  line-height: 16px;
+}
+div.search_results div.pagination{
+  float:right;
+  font-size: 12px;
+  background: url(../img/resultados/paginas.png) top right no-repeat;
+  height:25px;
+  margin: 10px 0 50px 0;
+}                                 
+div.search_results div.pagination a, div.search_results div.pagination p {
+  float:left;
+}            
+div.search_results div.pagination a{
+  width:25px;
+  height: 25px;
+  text-indent: -999em;
+  display: block;
+  overflow:hidden;
+}                 
+div.search_results div.pagination p.current_page{
+  width:23px;  
+  height: 21px;
+  text-align:center;
+  font-family: Times New Roman, Arial;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top:4px;
+}
+div.search_results div.pagination p.resultados{
+  color: #858585;
+  margin-top:6px;
+  margin-right:15px;
+}
+/* END Resultados settings */
+
+
+/* BEGIN Criticas Cine settings */
+#centro.criticas_cine{
+  margin-top: 10px;
+}
+#criticas_cine .barra_titulo{
+  background: none;
+  border-bottom: #747474 solid 1px;
+}
+#criticas_cine .barra_titulo h1{
+  width:240px;                
+  background: url(../img/titulo/degradado.png) repeat-x;
+  height:31px;
+  float:left;
+  margin-left:-8px;
+}                               
+#criticas_cine .barra_titulo span{
+  border-bottom: #747474 solid 1px;
+}
+#criticas_cine .barra_titulo span.tail{
+  width:8px;
+  height:31px;
+  background: url(../img/titulo/grandecurva02.png) no-repeat;
+  display: block;
+  float:left;     
+  position:relative;
+  margin-left:8px;       
+}  
+#criticas_cine p.search_term{
+  float:left;
+  clear: both;
+  margin-left: 20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+#criticas_cine div.search_cats_results{
+  width:175px;
+  float:left;
+  display: block;
+  clear:left;       
+  margin-left: 20px;
+}
+#criticas_cine div.search_cats_results p{
+  font-weight: bold;
+}                   
+#criticas_cine ul.search_cats{
+  width:175px;
+  margin-top: 10px;
+}                          
+#criticas_cine ul.search_cats li{
+  width: 165px;
+  height: 23px;
+  background: url(../img/resultados/resultados_middle.png) top left no-repeat;
+  padding: 7px 0  0 10px;
+}                                          
+#criticas_cine ul.search_cats li.activo{
+  background: url(../img/resultados/resultados_middle_act.png) top left no-repeat;
+}
+#criticas_cine ul.search_cats li.top{
+  background: url(../img/resultados/resultados_top.png) top left no-repeat;
+}                                          
+#criticas_cine ul.search_cats li.top.activo{
+  background: url(../img/resultados/resultados_top_act.png) top left no-repeat;
+}
+#criticas_cine ul.search_cats li.bottom{    
+  background: url(../img/resultados/resultados_bottom.png) top left no-repeat;
+}
+#criticas_cine ul.search_cats li.bottom.activo{  
+  background: url(../img/resultados/resultados_bottom_act.png) top left no-repeat;
+}               
+#criticas_cine ul.search_cats li a{
+  text-decoration: none;
+}
+#criticas_cine div.search_results{
+  width:960px;  
+  float:left;
+  display: block;   
+  margin-left: 20px;
+  margin-top:0;
+}
+#criticas_cine div.search_results .pagination{
+  margin-right: 10px;
+}
+#criticas_cine div.search_results div#results_container{
+  display:block;
+  float:left;
+  width:100%;
+}
+#criticas_cine div#results_container div.results_header{
+  float: left;
+  width:950px;      
+  padding-left:10px;
+  padding-bottom:15px;
+  border-bottom: #4e4e4e 1px solid;
+}                                        
+#criticas_cine div#results_container p{
+  display:block;
+  float:left;
+  font-weight:bold;
+  font-size:13px;
+}                                          
+#criticas_cine div#results_container p.info{
+  width:492px;
+}                          
+#criticas_cine div#results_container p.calificacion{
+  width:123px;
+}             
+#criticas_cine div#results_container p.critico{
+  width:90px;
+} 
+#criticas_cine div#results_container p.genero{
+  width:96px;
+}
+#criticas_cine div#results_container p.director{
+  width:101px;
+}
+#criticas_cine div#results_container p.anio{
+  width:48px;
+}
+#criticas_cine div.result_item{    
+  padding-left:10px;
+}
+#criticas_cine div#results_container div.result_item{
+  float: left;
+  display:block;
+  font-family: Arial, Times New Roman, Georgia;
+  border-bottom: #4e4e4e 1px solid;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  padding-top:15px;
+}                         
+#criticas_cine div#results_container div.result_item img.result_image{
+  display:block;
+  float:left;
+  margin-right: 10px;
+}
+#criticas_cine div#results_container div.result_item div.info{
+  width:390px;
+  display:block;
+  float:left;
+  margin-right:10px;
+}
+#criticas_cine div#results_container div.result_item div.info a{
+    text-decoration: none;
+}                                                                  
+#criticas_cine div#results_container div.result_item div.info h2{
+  float:left;
+  display:block;
+  width:390px;
+  font-size: 13px;
+  font-weight: bold; 
+  color: #eceded;
+  margin-left:0;
+  position:relative;
+  margin-bottom:5px;
+}        
+#criticas_cine div#results_container div.result_item div.info p.sinopsis{
+  color:#FFFFFF;
+  position:relative;
+  float:left;
+  display:block;
+  width:390px;    
+  line-height: 16px;
+  font-size:13px;
+  font-weight: normal;
+  font-family: Arial, Times New Roman;
+  text-align:justify;
+  margin-left:0;
+  height:auto;
+}
+#criticas_cine div#results_container div.result_item div.info p.sinopsis span{
+  color:#686868;
+}
+#criticas_cine div#results_container div.result_item.even{
+  background: #0c0c0c;
+}
+#criticas_cine div#results_container div.result_item p{
+  margin-left:0;
+  font-weight:normal;
+}                                                         
+#criticas_cine div#results_container div.result_item p.calificacion{
+  width:123px;
+}     
+#criticas_cine div#results_container div.result_item p.critico{
+  width:90px;
+}     
+#criticas_cine div#results_container div.result_item p.genero{
+  width:96px;
+}     
+#criticas_cine div#results_container div.result_item p.director{
+  width:101px;
+}
+#criticas_cine div#results_container div.result_item p.anio{
+  width:45px;
+  margin:0;
+}
+div.search_results div.pagination{
+  float:right;
+  font-size: 12px;
+  background: url(../img/resultados/paginas.png) top right no-repeat;
+  height:25px;
+  margin: 10px 0 50px 0;
+}                                 
+div.search_results div.pagination a, div.search_results div.pagination p {
+  float:left;
+}            
+div.search_results div.pagination a{
+  width:25px;
+  height: 25px;
+  text-indent: -999em;
+  display: block;
+  overflow:hidden;
+}                 
+div.search_results div.pagination p.current_page{
+  width:23px;  
+  height: 21px;
+  text-align:center;
+  font-family: Times New Roman, Arial;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top:4px;
+}
+div.search_results div.pagination p.resultados{
+  color: #858585;
+  margin-top:6px;
+  margin-right:15px;
+}
+div.filtros{
+  float:right;
+}
+div.filtros a{
+  margin-top:2px;
+}
+div.filtros a#populares{
+  background: url(../img/otros/solapas_resultados_populares.png) no-repeat top left;
+  text-indent: -999em;
+  overflow:hidden;
+  width:114px;
+  height:29px;
+  display:block;
+  float:left;
+}
+div.filtros a#populares:hover{
+  background: url(../img/otros/solapas_resultados_populares.png) no-repeat 0px -29px;
+}
+div.filtros a#mejores_calificadas{
+  background: url(../img/otros/solapas_resultados_mejores.png) no-repeat top left;
+  text-indent: -999em;
+  overflow:hidden;
+  width:183px;
+  height:29px;
+  display:block;          
+  float:left;
+}
+div.filtros a#mejores_calificadas:hover{
+  background: url(../img/otros/solapas_resultados_mejores.png) no-repeat 0px -29px;
+}
+div.filtros a#critico{
+  background: url(../img/otros/solapas_resultados_critico.png) no-repeat top left;
+  text-indent: -999em;
+  overflow:hidden;
+  width:198px;
+  height:29px;
+  display:block;
+  float:left;
+}
+div.filtros a#critico:hover{
+  background: url(../img/otros/solapas_resultados_critico.png) no-repeat 0px -29px;
+}
+/* END Criticas Cine settings */
+
+/* BEGIN Libros listado settings */
+#centro.libros{
+  margin-top: 10px;
+}
+#libros .barra_titulo{
+  background: none;
+  border-bottom: #747474 solid 1px;
+}
+#libros .barra_titulo h1{
+  width:240px;                
+  background: url(../img/titulo/degradado.png) repeat-x;
+  height:31px;
+  float:left;
+  margin-left:-8px;
+}                               
+#libros .barra_titulo span{
+  border-bottom: #747474 solid 1px;
+}
+#libros .barra_titulo span.tail{
+  width:8px;
+  height:31px;
+  background: url(../img/titulo/grandecurva02.png) no-repeat;
+  display: block;
+  float:left;     
+  position:relative;
+  margin-left:8px;       
+}  
+#libros p.search_term{
+  float:left;
+  clear: both;
+  margin-left: 20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+#libros div.search_cats_results{
+  width:175px;
+  float:left;
+  display: block;
+  clear:left;       
+  margin-left: 20px;
+}
+#libros div.search_cats_results p{
+  font-weight: bold;
+}                   
+#libros ul.search_cats{
+  width:175px;
+  margin-top: 10px;
+}                          
+#libros ul.search_cats li{
+  width: 165px;
+  height: 23px;
+  background: url(../img/resultados/resultados_middle.png) top left no-repeat;
+  padding: 7px 0  0 10px;
+}                                          
+#libros ul.search_cats li.activo{
+  background: url(../img/resultados/resultados_middle_act.png) top left no-repeat;
+}
+#libros ul.search_cats li.top{
+  background: url(../img/resultados/resultados_top.png) top left no-repeat;
+}                                          
+#libros ul.search_cats li.top.activo{
+  background: url(../img/resultados/resultados_top_act.png) top left no-repeat;
+}
+#libros ul.search_cats li.bottom{    
+  background: url(../img/resultados/resultados_bottom.png) top left no-repeat;
+}
+#libros ul.search_cats li.bottom.activo{  
+  background: url(../img/resultados/resultados_bottom_act.png) top left no-repeat;
+}               
+#libros ul.search_cats li a{
+  text-decoration: none;
+}
+#libros div.search_results{
+  width:960px;  
+  float:left;
+  display: block;   
+  margin-left: 20px;
+  margin-top:0;
+}
+#libros div.search_results .pagination{
+  margin-right: 10px;
+}
+#libros div#results_container{
+  display:block;
+  float:left;
+  width:100%;
+}
+#libros div#results_container div.results_header{
+  float: left;
+  width:950px;      
+  padding-left:10px;
+  padding-bottom:15px;
+  border-bottom: #4e4e4e 1px solid;
+}                                        
+#libros div#results_container p{
+  display:block;
+  float:left;
+  font-weight:bold;
+  font-size:13px;
+}                                          
+#libros div#results_container p.info{
+  width:492px;
+}                          
+/*#libros div#results_container p.calificacion{
+  width:213px;
+} */        
+#libros div#results_container p.genero{
+  width:96px;
+}
+#libros div#results_container p.director{
+  /* orig width:101px; */
+  width:314px;
+}
+#libros div#results_container p.anio{
+  width:48px;
+}
+#libros div.result_item{    
+  padding-left:10px;
+}
+#libros div#results_container div.result_item{
+  float: left;
+  display:block;
+  font-family: Arial, Times New Roman, Georgia;
+  border-bottom: #4e4e4e 1px solid;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  padding-top:15px;
+}                         
+#libros div#results_container div.result_item img.result_image{
+  display:block;
+  float:left;
+  margin-right: 10px;
+}
+#libros div#results_container div.result_item div.info{
+  width:390px;
+  display:block;
+  float:left;
+  margin-right:10px;
+}                                                     
+#libros div#results_container div.result_item div.info a{
+    text-decoration: none;
+}             
+#libros div#results_container div.result_item div.info h2{
+  float:left;
+  display:block;
+  width:390px;
+  font-size: 13px;
+  font-weight: bold; 
+  color: #eceded;
+  margin-left:0;
+  position:relative;
+  margin-bottom:5px;
+}        
+#libros div#results_container div.result_item div.info p.sinopsis{
+  color:#FFFFFF;
+  position:relative;
+  float:left;
+  display:block;
+  width:390px;    
+  line-height: 16px;
+  font-size:13px;
+  font-weight: normal;
+  font-family: Arial, Times New Roman;
+  text-align:justify;
+  margin-left:0;
+  height:auto;
+}
+#libros div#results_container div.result_item div.info p.sinopsis span{
+  color:#686868;
+}
+#libros div#results_container div.result_item.even{
+  background: #0c0c0c;
+}
+#libros div#results_container div.result_item p{
+  margin-left:0;
+  font-weight:normal;
+}                                                         
+/*#libros div#results_container div.result_item p.calificacion{
+  width:213px;
+} */    
+#libros div#results_container div.result_item p.genero{
+  width:96px;
+}     
+#libros div#results_container div.result_item p.director{
+  /* orig width:101px; */
+  width:314px;
+}
+#libros div#results_container div.result_item p.anio{
+  width:45px;
+  margin:0;
+}
+#libros div.search_results div.pagination{
+  float:right;
+  font-size: 12px;
+  background: url(../img/resultados/paginas.png) top right no-repeat;
+  height:25px;
+  margin: 10px 0 50px 0;
+}                                 
+#libros div.search_results div.pagination a, div.search_results div.pagination p {
+  float:left;
+}            
+#libros div.search_results div.pagination a{
+  width:25px;
+  height: 25px;
+  text-indent: -999em;
+  display: block;
+  overflow:hidden;
+}                 
+#libros div.search_results div.pagination p.current_page{
+  width:23px;  
+  height: 21px;
+  text-align:center;
+  font-family: Times New Roman, Arial;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top:4px;
+}
+#libros div.search_results div.pagination p.resultados{
+  color: #858585;
+  margin-top:6px;
+  margin-right:15px;
+}
+div.filtros{
+  float:right;
+}
+div.filtros a{
+  margin-top:2px;
+}
+div.filtros a#populares{
+  background: url(../img/otros/solapas_resultados_populares.png) no-repeat top left;
+  text-indent: -999em;
+  overflow:hidden;
+  width:114px;
+  height:29px;
+  display:block;
+  float:left;
+}
+div.filtros a#populares:hover{
+  background: url(../img/otros/solapas_resultados_populares.png) no-repeat 0px -29px;
+}
+div.filtros a#mejores_calificadas{
+  background: url(../img/otros/solapas_resultados_mejores.png) no-repeat top left;
+  text-indent: -999em;
+  overflow:hidden;
+  width:183px;
+  height:29px;
+  display:block;          
+  float:left;
+}
+div.filtros a#mejores_calificadas:hover{
+  background: url(../img/otros/solapas_resultados_mejores.png) no-repeat 0px -29px;
+}
+div.filtros a#critico{
+  background: url(../img/otros/solapas_resultados_critico.png) no-repeat top left;
+  text-indent: -999em;
+  overflow:hidden;
+  width:198px;
+  height:29px;
+  display:block;
+  float:left;
+}
+div.filtros a#critico:hover{
+  background: url(../img/otros/solapas_resultados_critico.png) no-repeat 0px -29px;
+}
+/* END Libros listado settings */
+
+/* BEGIN Critica (ficha) settings */
+#centro.critica_interna{
+  margin-top: 10px;
+}
+div#pestanas, div.ficha, div.critica, div.trailer, div.fotos{
+  display: block;
+  float:left;
+  width: 756px;
+}
+div.ficha, div.critica, div.trailer, div.fotos{
+  margin-left:10px;
+  width: 746px;
+  margin-top:25px;
+}
+div#pestanas{
+	border-bottom:1px solid #555555;
+	height:30px;
+}
+a.ficha, a.critica, a.trailer, a.fotos{
+  height: 25px;
+  display: block;
+  float:left;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 0 0 10px;
+}
+a.ficha{
+  background: url(../img/interior/interior_ficha_bkg.png) no-repeat top left;
+  width: 91px;
+}
+a.critica{
+  background: url(../img/interior/interior_critica_bkg.png) no-repeat top left;
+  width: 137px;
+}
+a.trailer{
+  background: url(../img/interior/interior_trailer_bkg.png) no-repeat top left;
+  width: 101px;
+}
+a.fotos{
+  background: url(../img/interior/interior_fotos_bkg.png) no-repeat top left;
+  width: 387px;
+}
+div#pestanas a:hover{
+}
+#centro.critica_interna h1{
+  font-size: 14px;
+  font-weight:bold;
+  display:block;
+  float:left;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+div.ficha img.afiche_pelicula{
+  display:block;
+  float:left;
+  border: 5px #4c0c09 solid;
+}
+div.info_ficha{
+  font-size: 12px;
+  width: 545px;
+  display: block;
+  float:left;
+  margin-left: 30px;
+}                 
+div.info_ficha h2{
+  color: #a72d2d;
+  font-weight: bold;
+  width: 110px;
+  display:block;
+  float: left;
+  clear:left;
+  margin-top: 5px;
+}                     
+div.info_ficha p{
+  display:block;
+  float:left;
+  width: 430px;   
+  margin-top: 5px;
+  text-align: justify;
+  line-height: 16px;
+}        
+div.critica p{
+  line-height:16px;
+  font-size: 12px;
+  margin-bottom: 14px;
+  overflow: hidden;
+  width: 746px;
+  text-align:justify;
+}
+div.critica p.calificacion{
+  width: 125px;
+  height: 23px;
+  background: url(../img/interior/calificacion_bkg.png) no-repeat top left;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 7px 0 0 11px;
+  margin-bottom: 20px;
+}                  
+div.trailer iframe{
+  border:1px solid #535353;
+}
+div.fotos{
+}
+div.fotos a img{
+  border:6px solid #6a6a6a;
+  height: 136px;
+  display:block;
+  float:left;
+  margin: 0 20px 20px 0;
+}
+
+div.ficha, div.trailer, div.fotos{
+  display:none;
+}
+#ficha_libro div.ficha{
+	display:block;
+}
+/* END Critica (ficha) settings */
+
+/* BEGIN Libro (ficha) settings */
+#centro.ficha_libro{
+  margin-top: 10px;
+  margin-bottom:30px;
+  margin-left:10px;
+}
+#ficha_libro .barra_titulo{
+  background: none;
+  border-bottom: #747474 solid 1px;
+  margin-left:0;
+}
+#ficha_libro .barra_titulo h1{
+  width:240px;                
+  background: url(../img/titulo/degradado.png) repeat-x;
+  height:31px;
+  float:left;
+  margin-left:-8px;
+}                               
+#ficha_libro .barra_titulo span{
+  border-bottom: #747474 solid 1px;
+}
+#ficha_libro .barra_titulo span.tail{
+  width:8px;
+  height:31px;
+  background: url(../img/titulo/grandecurva02.png) no-repeat;
+  display: block;
+  float:left;     
+  position:relative;
+  margin-left:8px;       
+}
+#centro.ficha_libro h1.titulo_libro{
+  font-size: 14px;
+  font-weight:bold;
+  display:block;
+  float:left;
+  clear:both;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+div.ficha img.afiche_pelicula{
+  display:block;
+  float:left;
+  border: 5px #4c0c09 solid;
+}
+div.info_ficha{
+  font-size: 12px;
+  width: 545px;
+  display: block;
+  float:left;
+  margin-left: 30px;
+}                 
+div.info_ficha h2{
+  color: #a72d2d;
+  font-weight: bold;
+  width: 110px;
+  display:block;
+  float: left;
+  clear:right;
+  margin-top: 5px;
+}                     
+div.info_ficha p{
+  display:block;
+  float:right;
+  width: 430px;   
+  margin-top: 5px;
+  text-align: justify;
+  line-height: 16px;
+}        
+div.info_ficha a.libro_link{
+  background: url(../img/interior/boton_leer.jpg) no-repeat top left;
+  width:178px;
+  height: 25px;
+  display:block;
+  float:left;
+  text-indent:-999em;
+  overflow:hidden;
+  margin-left:110px;
+  margin-top: 15px;
+}
+/* END Libro (ficha) settings */
+
+/* BEGIN Staff settings */
+div.staff_bios{
+  display:block;
+  float:left; 
+  width: 731px;
+  margin-left:25px;
+  margin-top:25px;
+}
+div.staff_bios h2.santiago{
+  width: 218px;
+  height: 33px;
+  background: url(../img/staff/santiago_asorey.png) no-repeat top left;
+  overflow: hidden;
+  text-indent:-999em;
+  display:block;
+  float:left;
+}           
+div.staff_bios h2.gonzalo{
+  width: 218px;
+  height: 33px;
+  background: url(../img/staff/gonzalo_de_miceu.png) no-repeat top left;
+  overflow: hidden;
+  text-indent:-999em;
+  display:block;
+  float:left;
+}                          
+div.staff_bios div{
+  display:block;
+  float:left; 
+  width: 701px;
+  font-size: 12px;
+  text-align: justify;
+  padding:15px;
+  line-height: 14px;
+}
+div.biosantiago{
+  background: url(../img/staff/backsantiago.jpg) no-repeat top left;
+  width:701px;
+  height:110px;
+}
+div.biogonzalo{
+  background: url(../img/staff/backgonza.jpg) no-repeat top left;
+  width:701px;
+  height:96px;
+}
+div.integrantes_staff{
+  display:block;
+  float:left; 
+  background: url(../img/staff/back_integrantes.png) no-repeat top left;
+  width:202px;
+  height:483px;
+}
+div.integrantes_staff h3{
+  font-size: 16px;
+  font-weight:bold;
+  padding: 6px 0 6px 8px;
+  margin-left:1px;
+  border-bottom: #560705 1px solid;
+  width: 130px;
+}
+div.integrantes_staff h4{
+  display:block;
+  float:left; 
+  background: #212121;   
+  padding: 3px 6px 3px 6px;
+  margin-left:1px;
+  font-weight: bold;
+  font-size: 14px;
+  clear:both;
+  margin-top: 15px;
+}                        
+div.integrantes_staff p{ 
+  display:block;
+  float:left; 
+  font-size: 12px;
+  clear:both;                 
+  padding: 3px 6px 3px 6px;
+}
+/* END Staff settings */
+
+/* BEGIN Noticias settings */
+#centro.noticias{
+  margin-top: 10px;
+}
+#noticias .barra_titulo{
+  background: none;
+  border-bottom: #747474 solid 1px;
+}
+#noticias .barra_titulo h1{
+  width:240px;                
+  background: url(../img/titulo/degradado.png) repeat-x;
+  height:31px;
+  float:left;
+  margin-left:-8px;
+}                               
+#noticias .barra_titulo span{
+  border-bottom: #747474 solid 1px;
+}
+#noticias .barra_titulo span.tail{
+  width:8px;
+  height:31px;
+  background: url(../img/titulo/grandecurva02.png) no-repeat;
+  display: block;
+  float:left;     
+  position:relative;
+  margin-left:8px;       
+}
+#noticias div#noticias_header{
+  display:block;
+  width:730px;
+  height:155px;
+  background: url(../img/noticias/noticias_banner.png) no-repeat top left;
+  overflow:hidden;
+  margin: 30px auto 0 auto;   
+  float:right;
+}
+div#noticias div#noticias_header p.month{
+	margin-top:128px;
+	font-size:15px;
+	background:#310807;
+	width:140px;
+	height:14px;
+	padding-left:15px;
+	line-height:0px;
+}
+div#listado_noticias{
+  width:730px;             
+  margin: 30px auto 130px auto;
+  float:right;
+}
+div#listado_noticias div.noticia_blurb{
+	border-bottom:1px dotted #2e2e2e;
+	margin-bottom:18px;
+}
+div#listado_noticias div.noticia_blurb p.fecha_lugar{
+	font-family:Arial;
+	font-size:12px;
+	color:#a09e9e;
+}
+div#listado_noticias div.noticia_blurb a{
+	text-decoration:none;
+}
+div#listado_noticias div.noticia_blurb h2.noticia_titulo{
+	font-family:Arial;
+	font-size:17px;
+	color:#ffffff;
+	margin-top:15px;
+	margin-bottom:18px;
+}
+div#texto_noticia{
+  width:730px;             
+  margin: 30px auto 30px auto;
+  float:right;
+}
+div#texto_noticia, div#texto_noticia *{
+  font-family:Arial, Times New Roman, Georgia;
+  font-size: 12px;
+  color: #747474;
+  line-height:16px;
+  text-align: justify;
+}
+div#texto_noticia div.noticia_blurb p.fecha_lugar{
+	font-size:11px;
+	color:#a09e9e;
+}
+div#texto_noticia div.noticia_blurb h2.noticia_titulo{
+	font-size:17px;
+	color:#ffffff;
+	margin-bottom:20px;
+}
+div#texto_noticia img{
+	border:10px solid #101010;
+	float:left;
+	margin-right:30px;
+}
+div#texto_noticia p{
+	color:#ffffff;
+	font-size:12px;
+}
+div#texto_noticia p a{
+  font-family:Arial, Times New Roman, Georgia;
+	font-size:12px;
+	color:#b3150e;
+}
+i{
+  font-style: italic;
+}
+div#texto_noticia p{
+  margin-bottom: 14px;
+}
+div#fotos_noticia{
+  text-align:center;
+  margin: 0 auto 100px auto; 
+  width:730px;          
+  float:right; 
+}
+div#fotos_noticia a{
+  margin: 0 10px 0 10px;
+}                      
+div#fotos_noticia a img{
+}
+#lightbox-image-details *{
+  color:#000;
+}                     
+#centro.noticias div#banners a{
+  margin-bottom: 20px;
+}
+#centro.noticias div#banners div#archivo{
+  width:200px;
+  background: #7c150b url(../img/noticias/noticias_archivo.png) no-repeat bottom left;
+  display:block;
+  float:left;                     
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding:10px 0 80px 0;
+  margin-top:67px;
+  min-height:541px;
+}                                           
+div#archivo h3, div#archivo h2, div#archivo p {
+  margin:0 10px 0 10px;
+}                            
+div#archivo h3, div#archivo p {
+  margin-bottom:5px;
+}
+div#archivo h3{
+  font-weight: bold;
+  margin-top:15px;
+}            
+div#archivo p a{
+  display: block;
+  float:left;       
+  margin-bottom: 5px !important;
+  text-decoration:none;
+  width:100%;
+  padding:0;
+}
+div#archivo h2{     
+  font-weight: bold;
+  border-bottom: 1px solid #959595;
+  padding-bottom: 5px;    
+  font-size: 14px;
+}
+/* END Noticias settings */
+
+div.result_item.odd:hover, div.result_item.even:hover{
+	background:#222222 !important;
+}              

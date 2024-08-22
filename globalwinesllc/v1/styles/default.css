@@ -1,0 +1,898 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* BEGIN CSS Reset */
+tml, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END CSS Reset */
+
+/* BEGIN site-wide settings */
+* {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000;
+	background-color:#FFF;
+}
+html{
+	height:100%;
+  overflow:hidden;
+}
+body{
+	width:100%;
+	text-align:center;
+	background-color:#e7e7e7;
+	min-height:100%;
+}
+#main_container{
+	width:960px;
+	margin:0 auto;
+	display:block;
+	text-align:left;
+}
+div.clear{
+	display:block;
+	float:left;
+	clear:both;
+}
+/* END site-wide settings */
+
+/* BEGIN Home Page styles */
+body.homepage{
+	overflow:hidden;
+}
+#main_container.homepage{
+	height:565px;/* old: 1000px */
+}
+#logo{
+	position:absolute;
+	margin-top:200px;
+	margin-left:85px;
+	display:block;
+}
+#access_links{
+	position:relative;
+	/*left:185px; Original value. Put this back when the Entrar link is enabled*/
+  left:230px;
+	top:363px;
+	background:transparent;
+}
+#access_links a{
+	color:#858585;
+	font-size:14px;
+	letter-spacing:3px;
+	text-decoration:none;
+	padding-bottom:5px;
+	padding-left:3px;
+}
+#access_links a.espanol{
+	margin-right:35px;
+}
+#access_links a:hover{
+	border-bottom:1px #656565 solid;
+}
+#home_images{
+	position:relative;
+	top:75px;
+	left:490px;
+	width:470px;
+	height:420px;
+	display:block;
+}
+#home_images div{
+  overflow:hidden;
+}
+a.rollover{
+	width:100%;
+	height:100%;
+	display:block;
+	text-decoration:none;
+	cursor:default;
+}
+#copa{
+	position:absolute;
+	top:38px;
+	left:0px;
+	width:48px;
+	height:355px;
+	display:block;
+}
+#copa a{
+	background: url(../images/vinos_home.jpg) no-repeat top left;
+}
+#copa a:hover{
+	background: url(../images/vinos_home.jpg) no-repeat -48px 0px;
+}
+#barriles{
+	position:absolute;
+	top:0px;
+	left:58px;
+	width:187px;
+	height:422px;
+	display:block;
+}
+#barriles a{
+	background: url(../images/barriles_home.jpg) no-repeat top left;
+}
+#barriles a:hover{
+	background: url(../images/barriles_home.jpg) no-repeat -187px 0px;
+}
+#parra{
+	position:absolute;
+	top:26px;
+	left:253px;
+	width:61px;
+	height:381px;
+	display:block;
+}
+#parra a{
+	background: url(../images/parras_home.jpg) no-repeat top left;
+}
+#parra a:hover{
+	background: url(../images/parras_home.jpg) no-repeat -61px 0px;
+}
+#campo{
+	position:absolute;
+	top:36px;
+	left:318px;
+	width:28px;
+	height:382px;
+	display:block;
+}
+#campo a{
+	background: url(../images/campo_home.jpg) no-repeat top left;
+}
+#campo a:hover{
+	background: url(../images/campo_home.jpg) no-repeat -28px 0px;
+}
+#uvas{
+	position:absolute;
+	top:42px;
+	left:354px;
+	width:116px;
+	height:345px;
+	display:block;
+}
+#uvas a{
+	background: url(../images/uvas_home.jpg) no-repeat top left;
+}
+#uvas a:hover{
+	background: url(../images/uvas_home.jpg) no-repeat -116px 0px;
+}
+#musicplayer{
+  display:block;
+  height:0;
+  width:0;
+  overflow:hidden;
+}
+/* END Home Page styles */
+
+/* BEGIN Inner pages general styles */
+#top{
+	width:100%;
+	height:186px;
+	background: url(../images/homepage_background.jpg) no-repeat top right;
+	display:block;
+}
+#top img.logo_inner{
+	display:block;
+	float:left;
+	margin-left:35px;
+	margin-top:62px;
+}
+#navigation *{
+	z-index:5;
+}
+#navigation{
+	height:38px;
+	width:100%;
+	background:#472f51;
+	display:block;
+}
+#navigation ul.menu li{
+	float:left;
+	display:block;
+	height:38px;
+	width:auto;
+}
+#navigation ul.menu li a{
+	float:left;
+	display:block;
+	height:38px;
+	text-indent:-999em;
+	overflow:hidden;
+}
+#navigation ul.menu li a.about_us{
+	width:123px;
+	background:url(../images/menu_aboutus.jpg) no-repeat top left;
+}
+#navigation ul.menu li a.florida_distributor{
+	width:156px;
+	background:url(../images/menu_floridadistributor.jpg) no-repeat top left;
+}
+#navigation ul.menu li a.national_importer{
+	width:164px;
+	background:url(../images/menu_nationalimporter.jpg) no-repeat top left;
+}
+#navigation ul.menu li.wineries{
+	width:126px;
+}
+#navigation ul.menu li a.wineries{
+	width:126px;
+	background:url(../images/menu_wineries.jpg) no-repeat top left;
+}
+#navigation ul.menu li.wines{
+	width:103px;
+}
+#navigation ul.menu li a.wines{
+	width:103px;
+	background:url(../images/menu_wines.jpg) no-repeat top left;
+}
+#navigation ul.menu li a.pos_media{
+	width:149px;
+	background:url(../images/menu_posmedia2.jpg) no-repeat top left;
+}
+#navigation ul.menu li a.contact_us{
+	width:139px;
+	background:url(../images/menu_contactus.jpg) no-repeat top left;
+}
+#navigation ul.menu li a:hover{
+	background-position: 0px -38px;
+}
+
+#navigation ul.menu li ul.submenu1{
+	display:none;
+}
+#navigation ul.menu li:hover ul.submenu1{
+	display:block;
+}
+
+#navigation ul.menu li ul.submenu1{
+	position:relative;
+	min-width:100%;
+}
+#navigation ul.menu li ul.submenu1 li{
+	display:block;
+	position: relative;
+	width:170px;
+	height: 27px;
+	background: #6a4976;
+	float:left;
+	border-bottom:#FFF 1px solid;
+}
+#navigation ul.menu li ul.submenu1 li a{
+	text-align:center;
+	width:auto;
+	color:#858585;
+	background:url(../images/submenu1_background.jpg) top left no-repeat;
+	text-indent:0;
+	display:block;
+	position:relative;
+	float:none;
+	height:21px;
+	font-size:12px;
+	font-family:Arial Narrow, Arial, Times New Roman;
+	text-decoration:none;
+	padding-top:9px;
+}
+#navigation ul.menu li ul.submenu1 li a:hover{
+	background:#6a4976;
+	color:#FFF;
+}
+
+#navigation ul.menu li ul.submenu1 li ul.submenu2{
+	position:relative;
+	display:none;
+	left:100%;
+	top:-30px;
+	width:auto;
+}
+#navigation ul.menu li ul.submenu1 li:hover ul.submenu2{
+	display:block;
+}
+#navigation ul.menu li ul.submenu1 li ul.submenu2 li a:hover{
+	background:#b9bbbc;
+}
+
+#navigation ul.menu li ul.submenu1 li ul.submenu2 li ul.submenu3{
+	position:relative;
+	display:none;
+	left:100%;
+	top:-30px;
+	background:url(../images/submenu1_background.jpg) top left no-repeat;
+}
+#navigation ul.menu li ul.submenu1 li ul.submenu2 li:hover ul.submenu3{
+	display:block;
+	background:url(../images/submenu1_background.jpg) top left no-repeat;
+}
+#navigation ul.menu li ul.submenu1 li ul.submenu2 li ul.submenu3 li a{
+	background:url(../images/submenu1_background.jpg) top left no-repeat;
+}
+#navigation ul.menu li ul.submenu1 li ul.submenu2 li ul.submenu3 li:hover a{
+	background:#6a4976;
+}
+
+#navigation ul.menu li ul.submenu1 li ul.submenu2 li a.flag_link{
+	padding-top:3px;
+	height:27px;
+}
+
+#content{
+	width: 100%;
+	display:block;
+  height:342px;
+}
+#content_body{
+	width: 600px;
+	display:block;
+	float:left;
+	margin-bottom: 50px;
+}
+div#page_image{
+	width:360px;
+  height:342px;
+	float:right;
+	display:block;
+  overflow:hidden;
+}
+p#page_title{
+	text-indent:-999em;
+	overflow:hidden;
+	margin-left:46px;
+	margin-top:34px;
+	display:block;
+	float:left;
+}
+p.page_subtitle{
+	margin-left:46px;
+	margin-top:34px;
+	color:#858585;
+	font-size:12px;
+	display:block;
+	float:left;
+}
+p.left_column, p.right_column{
+	margin-top:20px;
+	margin-left:46px;
+	color:#858585;
+	font-size:12px;
+	width:240px;
+	display:block;
+	float:left;
+	line-height:14px;
+	text-align:justify;
+}
+p.right_column{
+	margin-left:35px;
+}
+/* END Inner pages general styles */
+
+/* BEGIN About Us styles */
+p#page_title.about_us{
+	background:url(../images/aboutus_title.jpg) no-repeat;
+	width:100%;
+	height:38px;
+}
+/* END About Us styles */
+
+/* BEGIN Florida Distributor styles */
+p#page_title.florida_distributor{
+	background:url(../images/floridadistributor_title.jpg) no-repeat;
+	width:100%;
+	height:33px;
+}
+
+/* END Florida Distributor styles */  
+
+/* BEGIN Map info styles */  
+.maplink, .maplink:visited{
+  float:right;    
+	color:#858585;
+	font-size:12px;
+  font-weight:bold;
+  margin-right:40px;
+  margin-top:20px;
+}
+
+p#page_title.map_info{
+	background:url(../images/mapinfo_title.jpg) no-repeat;
+	width:100%;
+	height:54px;
+}
+div#content_body.map_info{
+  width:373px;
+}
+div#content_body.map_info p.left_column{
+  line-height: 20px;
+  display:none;
+  width:100%;
+}                       
+div#content_body.map_info p.left_column strong{
+  font-weight:bold;
+  color: #6a4976;
+}
+div#content_body.map_info p.left_column span.right_column{
+  float:right;                                  
+	color:#858585;
+}
+div#content_body.map_info p#instructions{
+  line-height: 20px;
+  display:block;
+}                             
+img#page_image.map_image{
+  margin-top:31px;
+  margin-right:70px;
+  float:right;
+}         
+/* END Map info styles */
+
+/* BEGIN National Importer styles */
+p#page_title.national_importer{
+	background:url(../images/national_importer_title.jpg) no-repeat;
+	width:100%;
+	height:54px;
+}
+/* END National Importer styles */
+
+/* BEGIN Wineries styles */
+p#page_title.wineries{
+	background:url(../images/wineries_title.jpg) no-repeat;
+	width:100%;
+	height:34px;
+}
+.wineries div#content_body{
+	width:334px;
+}
+.wineries div#content_body img.country_flag{
+  display:block;
+  float:none;
+  position:absolute;
+  margin-top:85px;
+  margin-left:45px;
+}
+div#wineries_list{
+	border-left: #d5d5d6 1px solid;
+	border-bottom: #d5d5d6 1px solid;
+	float:left;
+	margin-left:45px;
+	margin-top:45px;
+	padding-top:0px;
+	height:185px;
+	margin-bottom:-6px;
+}
+div#wineries_list ul.left_column, div#wineries_list ul.right_column{
+	font-size:12px;
+	margin-left:0px;
+	margin-top:5px;
+	width:130px;
+	float:left;
+}
+div#wineries_list ul.left_column{
+	margin-right:28px;
+}
+div#wineries_list ul.left_column li, div#wineries_list ul.right_column li{
+	height:19px;
+	padding: 6px 0 0 10px;
+}
+div#wineries_list ul.left_column li a, div#wineries_list ul.right_column li a{
+	text-decoration: none;
+	width: 100%;
+	color: #858585;
+	font-family:Arial Narrow, Arial, Helvetica;
+	background:transparent;
+	font-size:12px;
+}
+div#wineries_list ul.left_column li:hover, div#wineries_list ul.right_column li:hover{
+	background:#d5d5d6;
+}                       
+div#winery_card{
+	width: 626px;
+	height: 342px;
+	background:url(../images/wineries_wines_2.jpg);
+	display:block;
+	float:left;
+	margin-bottom:0;       
+}
+div#card_top{          
+  padding: 36px 0 0 83px;
+  background:transparent;
+  height:49px;
+  width:543px;
+  float:left;
+}
+div#card_bottom{
+  float:left;            
+  background:transparent;
+  width:543px;    
+  height:257px;
+  padding: 0 0 0 83px;         
+}
+div#winery_card #logo_container{
+  border: 1px solid #8f7a99;
+  position:relative;
+  padding:5px;
+  display:block;
+  width:auto;
+  float:left;
+	/*padding:47px 0 0 69px;*/
+}
+img.winery_logo{      
+	z-index:0;
+  background:transparent;   
+  position:relative;
+  display:block;
+}
+/* saf3+, chrome1+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+   img.winery_logo{
+  	margin:-42px 0 0 -64px;
+  }
+}                  */
+p.winery_description{
+	width:360px;
+	height:145px;
+  overflow:hidden;
+	color: #858585;
+	font-family:Arial Narrow, Arial, Helvetica;
+	position:relative;
+	font-size:13px;
+	text-align:justify;
+	line-height:16px;
+  top:36px;         
+  margin-top:20px;
+}         
+div#bottle_images{
+  background: transparent;
+  float:right;
+  position:relative;
+  margin-right:80px;
+  margin-top:-10px;
+}                         
+div#bottle_images img{    
+  background: transparent;
+  float:right;
+  position:relative;
+  display:block;
+  margin-left: 10px;
+}
+ul.wines_list{
+	width: 85px;
+	height:auto;
+	float:right;
+	margin-right:70px;
+	margin-top:-80px;
+}
+ul.wines_list li, ul.wines_list li a{
+	height:auto;
+}
+ul.wines_list li{
+	padding: 7px 0 7px 5px;
+}
+ul.wines_list li a{
+	color: #858585;
+	font-family:Arial Narrow, Arial, Helvetica;
+	text-decoration:underline;
+	text-transform:uppercase;
+	background:transparent;
+}
+ul.wines_list li:hover{
+	background: #d9d6df;
+}
+/* END Wineries styles */
+
+/* BEGIN Wineries Lines styles */   
+div#main_container.wineries_lines div#content_body{
+  height:245px;
+  width:960px;
+}
+div#main_container.wineries_lines div#content_body div#left_column{
+  width:300px;
+  float:left;
+}
+div#main_container.wineries_lines div#content_body div#right_column{
+  width:650px;
+  float:left;
+}
+p.backlink, p.backlink a{     
+	color: #858585;
+	font-family:Arial Narrow, Arial, Helvetica;
+  font-size:14px;                                        
+  margin-left:37px;
+  position:absolute;
+  width:200px;
+  margin-top:5px;
+  margin-left:20px;
+  float:left;
+}
+div#wineries_lines_footer{
+  width:960px;
+  height:94px;
+  background: url(../images/wineries_lines_footer.jpg) no-repeat top left;
+  display:block;
+  float:right;
+}
+div#main_container.wineries_lines img#winery_logo{
+  margin-left:37px;
+  margin-top:82px;
+  float:left;
+}
+div#main_container.wineries_lines p.winery_line{  
+  margin-left:37px;
+  margin-top:10px; 
+	color: #858585;
+	font-family:Arial Narrow, Arial, Helvetica;
+  font-size:18px;
+  width: 200px;        
+  float:left;
+}
+ul.line_wines{
+  display:block;
+  position:relative;
+  float:left;
+  margin-top: 60px;
+}
+ul.line_wines li{
+  width:59px;
+  float:left;
+  text-align:center;
+  overflow:hidden;
+} 
+ul.line_wines li a{
+} 
+ul.line_wines li:hover a img{
+  /*margin-left:-59px;*/    
+} 
+ul.line_wines li p{
+  display:none;
+}
+ul.line_wines li{
+}
+ul.line_wines li:hover p{
+  display:block;                          
+	font-family:Arial Narrow, Arial, Helvetica;
+  font-size:11px; 
+	color: #000;
+  margin-top:10px;
+}
+/* END Wineries Lines styles */
+
+/* BEGIN Contact Us styles */
+.contact_us div#content_body{
+	width:960px;
+	text-align:center;
+}
+#contact_us_title{
+	background:url(../images/contact_us_title.jpg) no-repeat top left;
+	width:134px;
+	height:26px;
+	text-indent:-999em;
+	overflow:hidden;
+	display:block;
+	margin:-18px auto 0 auto;
+}
+form#contact_us{
+	width:578px;
+	height:240px;
+	border: #cbc9d2 2px solid;
+	margin:50px auto 0 auto;
+	padding:0;  
+}
+form#contact_us div#labels{
+	width:67px;
+	float:left;
+	background:#897399;
+	margin: 20px 0 0 20px;
+	height: 183px;
+	padding: 3px 5px 0 0;
+}
+form#contact_us div#labels p{
+	background:transparent;
+	float:left;
+	width:100%;
+	text-align:right;
+	font-family:Arial Narrow, Arial, Helvetica;
+	color:#FFF;
+	font-size:13px;
+	font-weight:bold;
+	margin-bottom:13px;
+}
+form#contact_us div#form_fields{
+	width:450px;
+	float:left;
+	margin:20px 0 0 12px;
+}
+input#name, input#email, textarea#comments{
+	background:#e3e3e3;
+}
+input#last_name, input#tel1, input#tel2{
+	background:#d6d6d8;
+}
+form#contact_us div#form_fields *{
+	width:99%;
+	height:15px;
+	margin-bottom:10px;
+	border:none;
+}
+form#contact_us input, form#contact_us textarea{
+	display:block;
+	float:left;
+}
+form#contact_us textarea#comments{
+	height:75px;
+	width:98%;
+}
+form#contact_us input#tel1{
+	width:75px;
+	margin-right:10px;
+}
+form#contact_us input#tel2{
+	width:360px;
+}
+form#contact_us input#send{
+	width:74px;
+	height:36px;
+	border:7px #FFF solid;
+	background:#897399;
+	float:right;
+	margin-right:25px;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF;
+	font-family:Arial, Helvetica;
+}
+p.message{                     
+	font-family:Arial, Helvetica;
+  font-size:12px;
+  display:block;
+  margin:20px auto 0 auto;
+	width:578px;
+}
+/* END Contact Us styles */
+/* BEGIN Coming Soon styles */
+.coming_soon div#content_body{
+  width:100%;
+}
+.coming_soon p{
+  text-align:center;
+  font-size:26px;
+  color: #6a4976;
+  font-weight: bold;
+  margin-top:150px;
+}  
+/* END Coming Soon styles */
+/* BEGIN Wine card styles */
+.wine_card div#content_body{
+  width:100%;
+  text-align:center;
+}
+div#wine_card_body{
+  width: 900px;
+  margin: 0 auto;
+  background: url(../images/winecard_top.jpg) top left no-repeat;
+  text-align: left;
+  display:block;  
+  padding-top:10px;
+  height:343px;
+}         
+div#wine_card_body div#left{
+  float:left;
+  width:200px;
+  text-align:center;
+  background: transparent;
+  height: 340px;
+}                       
+div#wine_card_body img.wine_image{
+  width:74px;
+  margin:20px auto 0 auto;
+}                            
+div#wine_card_body p.download_link{
+  margin:15px auto 0 auto;
+  font-size: 14px;
+  font-family: Arial Narrow, Arial, Verdana;
+  color: #9ea0a1;
+  display:block;
+}
+div#wine_card_body div#center{
+  float:left; 
+  width:300px;            
+  height: 340px;          
+  background: transparent;
+}          
+div#wine_card_body p.wine_name{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  float:left;
+  color:#af8d65;
+  margin-left:10px;
+  margin-top:25px;
+  margin-bottom:125px;
+  width: 265px;
+}
+div#wine_card_body p.region, div#wine_card_body p.varietal{
+  font-size: 14px;
+  font-family: Arial Narrow, Arial, Verdana;
+  color: #9ea0a1;
+  float:left;
+  position: relative;
+  margin-left:10px;
+  margin-bottom:15px;  
+  width: 265px;       
+}
+div#wine_card_body p.region b, div#wine_card_body p.varietal b{
+  font-size: 16px;
+  color: #bea384;
+}
+div#wine_card_body div#right{
+  background: transparent;
+  float:left; 
+  width:390px;  
+  height: 340px;
+}          
+div#wine_card_body p.wine_description{
+  color: #9ea0a1;      
+  margin-left:10px;
+  margin-top:25px;
+  width:364px;
+  height:auto;
+  overflow: hidden;
+  font-size:14px;
+  line-height:18px;
+  float:left;
+  text-align:justify;
+}                                     
+div#wine_card_body p.producer{        
+  color: #9ea0a1;
+  width:364px;
+  height:20px;
+  overflow: hidden;
+  font-size:12px;
+  float:right;
+  text-align:right;      
+  margin-right:15px;
+  margin-top:35px;
+}
+div#wine_card_body p.wine_description b{
+  color: #bea384;  
+}
+/* END Wine card styles */

@@ -1,0 +1,115 @@
+/* CSS Document */
+div.page-editor{
+	width:96%;
+	float:left;
+	padding:20px 2% 20px 2%;
+	font-family:Arial;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+div.page-editor p{
+	width:100%;
+	margin-bottom:10px;
+}
+div.page-editor div.layout-container{
+	width:680px;
+	float:left;
+	margin-bottom:30px;
+}
+div.page-editor div.layout-container > div{
+	background:#fff;
+}
+div.page-editor div.layout-container .top{
+	width:656px;
+	min-height:60px;
+	float:left;
+	border:2px dashed gray;
+	margin-bottom:10px;
+	padding:10px;
+}
+div.page-editor div.layout-container .left-column{
+	width:400px;
+	min-height:200px;
+	float:left;
+	border:2px dashed gray;
+	padding:10px;
+	clear:both;
+}
+div.page-editor div.layout-container .right-column{
+	width:222px;
+	min-height:200px;
+	float:left;
+	border:2px dashed gray;
+	padding:10px;
+	margin-left:10px;
+}
+div.page-editor div.layout-container .top div.component{
+	width:640px;
+}
+div.page-editor div.layout-container .left-column div.component{
+	width:385px;
+}
+div.page-editor div.layout-container .right-column div.component{
+	width:205px;
+}
+div.page-editor div.layout-container div.droppable.drop-active.drop-hover{
+	background:#dddddd;
+}
+div.page-editor div.layout-container div.droppable.drop-active{
+	background:#eeeeee;
+}
+div.page-editor div.components{
+	width:20%;
+	float:right;
+	border:1px solid black;
+	text-align:center;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border-color:#cccccc;
+	background:#dddddd;
+	padding:10px;
+}
+div.page-editor div.components p{
+	font-size:12px;
+	text-align:left;
+	font-weight:bold;
+	margin-top:0px;
+}
+div.component{
+	width:170px;
+	margin-bottom:10px;
+	display:inline-block;
+	border:1px solid;
+	height:17px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border-color:#cccccc;
+	background:#efefef;
+	text-align:left;
+	padding:7px;
+	font-size:12px;
+	color:#505050;
+}
+div.component.draggable{
+	cursor:pointer;
+}
+div.component a.editlink{
+	float:right;
+	display:block;
+	text-indent:-999em;
+	overflow:hidden;
+	background:url(../admin/img/iconset/edit.png) no-repeat top left;
+	width:24px;
+	height:24px;
+	margin:-4px 0 0 0;
+}
+div.component a.deletelink{
+	float:right;
+	display:block;
+	text-indent:-999em;
+	overflow:hidden;
+	background:url(../admin/img/iconset/delete.png) no-repeat top left;
+	width:24px;
+	height:24px;
+	margin:-4px -4px 0 0;
+}
