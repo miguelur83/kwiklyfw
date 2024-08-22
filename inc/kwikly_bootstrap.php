@@ -185,7 +185,7 @@
 	* used to include the appropriate class files when they are needed
 	* @param String the name of the class
 	*/
-	function __autoload( $class_name )
+	function spl_autoload_register( $class_name )
 	{
 		if (file_exists(dirname(__FILE__).'/../classes/' . $class_name.'.class.php')){
 			require_once(dirname(__FILE__).'/../classes/' . $class_name.'.class.php' );
